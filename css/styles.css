@@ -1,6 +1,7 @@
 :root {
   --MainColor: #2196f3;
   --backgroundSecondary: #2f303a;
+  --colorGrey: #757575;
   --colorWhite: #ffffff;
 }
 
@@ -16,7 +17,8 @@ body {
 
 .header-2:hover,
 .header-2:focus,
-.footer-2:hover {
+.footer-2:hover,
+.contact-header {
   color: var(--MainColor);
 }
 
@@ -31,7 +33,6 @@ body {
 }
 
 .header-2 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -44,18 +45,21 @@ body {
   text-decoration: none;
 }
 
+.list-none-style {
+  list-style: none;
+}
+
 .button {
   background: #f5f4fa;
   width: 121px;
   height: 38px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  font-family: "Roboto";
+  border-radius: 4px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   cursor: pointer;
+  font-family: "Roboto";
 }
 
 .button:focus {
@@ -66,6 +70,8 @@ body {
 .button:hover {
   background: var(--MainColor);
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-service {
@@ -181,13 +187,21 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.footer-2 {
+.contact-header {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--colorWhite);
+  color: var(--colorGrey);
+}
+.contact-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 address {
