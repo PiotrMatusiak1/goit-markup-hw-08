@@ -6,52 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <title>Studio</title>
   </head>
   <body>
-    <header>
-      <a class="header-1 link-no-underline" href="./index.html"
-        ><span class="logo-recolor">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="list-none-style">
+    <header class="container">
+      <div class="box-header">
+        <a class="header-1 link-no-underline" href="./index.html"
+          ><span class="logo-recolor">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="list-header list-none-style">
+            <li>
+              <a class="header-2 link-no-underline" href="./index.html"
+                >Agencja</a
+              >
+            </li>
+            <li>
+              <a class="header-2 link-no-underline" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="header-2 link-no-underline" href="./index.html"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="list-header list-none-style">
           <li>
-            <a class="header-2 link-no-underline" href="./index.html"
-              >Agencja</a
+            <a
+              class="contact-header link-no-underline"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="header-2 link-no-underline" href="./portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a class="header-2 link-no-underline" href="./index.html"
-              >Kontakt</a
+            <a class="contact-header link-no-underline" href="tel:+48111111111"
+              >+48 111 111 111</a
             >
           </li>
         </ul>
-      </nav>
-      <ul class="list-none-style">
-        <li>
-          <a
-            class="contact-header link-no-underline"
-            href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contact-header link-no-underline" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section class="main-section">
+      <section class="main-section container">
         <h1 class="mail-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button class="button-service" type="button">Zamów usługe</button>
       </section>
@@ -87,7 +96,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="container">
         <h2 class="secondary-heading">Czym się zajmujemy</h2>
         <ul class="list-none-style">
           <li>
@@ -116,7 +125,7 @@
           </li>
         </ul>
       </section>
-      <section class="person">
+      <section class="person container">
         <h2 class="secondary-heading">Nasz zespół</h2>
         <ul class="list-none-style">
           <li>
@@ -162,7 +171,7 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="container">
       <a class="footer-1 link-no-underline" href="./index.html"
         ><span class="logo-recolor">Web</span>Studio</a
       >
