@@ -11,6 +11,10 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
+.container {
+  width: 1200px;
+}
+
 .logo-recolor {
   color: #2196f3;
 }
@@ -18,7 +22,10 @@ body {
 .header-2:hover,
 .header-2:focus,
 .footer-2:hover,
-.contact-header {
+.contact-footer:hover,
+.contact-footer:focus,
+.contact-header:hover,
+.contact-header:focus {
   color: var(--MainColor);
 }
 
@@ -86,10 +93,10 @@ body {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: #ffffff;
+  font-family: "Roboto";
 }
 
 .description-product-card {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -99,7 +106,6 @@ body {
 }
 
 .description-product-card-2 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -113,7 +119,6 @@ body {
 }
 
 .mail-text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -125,10 +130,7 @@ body {
 }
 
 .main-section {
-  width: 1600px;
   height: 600px;
-  left: 0px;
-  top: 80px;
   background: var(--backgroundSecondary);
 }
 
@@ -211,4 +213,14 @@ address {
   line-height: 24px;
   letter-spacing: 1.714;
   color: var(--colorWhite);
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-header {
+  display: flex;
 }
