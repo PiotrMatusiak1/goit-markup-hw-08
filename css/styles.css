@@ -11,8 +11,63 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
+.white {
+  width: 100%;
+  background: var(--colorWhite);
+}
+
 .container {
   width: 1200px;
+  margin: 0 auto;
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #ececec;
+}
+
+footer {
+  width: 100%;
+  align-items: center;
+}
+
+.list-header {
+  display: flex;
+  gap: 46px;
+  padding-left: 93px;
+}
+
+.contact-list {
+  display: flex;
+  gap: 46px;
+  padding-left: 371px;
+}
+
+.main-section {
+  height: 600px;
+  background: var(--backgroundSecondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-paragraph {
+  padding: 15px 0 15px 0;
+}
+
+.list-flex {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
 }
 
 .logo-recolor {
@@ -103,6 +158,7 @@ body {
   line-height: 1.161;
   letter-spacing: 0.06em;
   color: #212121;
+  padding: 20px 24px 4px 24px;
 }
 
 .description-product-card-2 {
@@ -112,26 +168,23 @@ body {
   line-height: 0.968;
   letter-spacing: 0.03em;
   color: #757575;
+  padding: 0px 24px 20px 24px;
 }
 
 .product-card {
   border: 1px solid #eeeeee;
 }
 
-.mail-text {
+.main-text {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 0.733;
+  line-height: 1.363;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 650px;
   text-align: center;
   color: #ffffff;
-}
-
-.main-section {
-  height: 600px;
-  background: var(--backgroundSecondary);
 }
 
 .paragraph-heading {
@@ -158,6 +211,14 @@ body {
   line-height: 1.166;
   letter-spacing: 0.03em;
   color: #212121;
+  text-align: center;
+  padding: 94px 0 15px 0;
+}
+
+.list-doing {
+  display: flex;
+  gap: 15px;
+  padding: 15px 0 94px 0;
 }
 
 .person-name {
@@ -167,16 +228,37 @@ body {
   line-height: 1.187;
   letter-spacing: 0.03em;
   color: #0c0b0b;
+  text-align: center;
+}
+
+.team > li > p {
+  text-align: center;
 }
 
 .person {
-  background-color: #f5f4fa;
+  width: 100%;
+  background: #f5f4fa;
+}
+
+.list-person {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 94px;
+}
+
+.team > li {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 footer {
   background-color: var(--backgroundSecondary);
-  width: 1600px;
   height: 252px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 0 51px 0;
 }
 
 .footer-1 {
@@ -215,12 +297,26 @@ address {
   color: var(--colorWhite);
 }
 
-.box-header {
+.main-portfolio {
+  padding: 94px 0;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  background: var(--colorWhite);
 }
 
-.list-header {
+.section-button {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.list-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.padding {
+  padding: 94px 0;
 }
