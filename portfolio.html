@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -13,169 +20,175 @@
   </head>
   <body>
     <header>
-      <a class="header-1 link-no-underline" href="./index.html"
-        ><span class="logo-recolor">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="list-none-style">
+      <div class="box-header container">
+        <a class="header-1 link-no-underline" href="./index.html"
+          ><span class="logo-recolor">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="list-header list-none-style">
+            <li>
+              <a class="header-2 link-no-underline" href="./index.html"
+                >Agencja</a
+              >
+            </li>
+            <li>
+              <a class="header-2 link-no-underline" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="header-2 link-no-underline" href="./index.html"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact-list list-none-style">
           <li>
-            <a class="header-2 link-no-underline" href="./index.html"
-              >Agencja</a
+            <a
+              class="contact-header link-no-underline"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="header-2 link-no-underline" href="./portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a class="header-2 link-no-underline" href="./index.html"
-              >Kontakt</a
+            <a class="contact-header link-no-underline" href="tel:+48111111111"
+              >+48 111 111 111</a
             >
           </li>
         </ul>
-      </nav>
-      <ul class="list-none-style">
-        <li>
-          <a
-            class="contact-header link-no-underline"
-            href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contact-header link-no-underline" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
-    <main>
-      <section>
-        <button class="button" type="button">Wszystkie</button>
-        <button class="button" type="button">Strony</button>
-        <button class="button" type="button">Aplikacje</button>
-        <button class="button" type="button">Dizajn</button>
-        <button class="button" type="button">Marketing</button>
-      </section>
-      <section>
-        <ul class="list-none-style">
-          <li class="product-card">
-            <img
-              src="./images/img0.jpg"
-              alt="Technocrack"
-              width="370"
-              height="294"
-            />
-            <h4 class="description-product-card">Technocrack</h4>
-            <p class="description-product-card-2">Strona internetowa</p>
-          </li>
-          <li class="product-card">
-            <img
-              src="./images/img8.jpg"
-              alt="Grafika New Orlean vs Golden Star"
-              width="370"
-              height="294"
-            />
-            <h4 class="description-product-card">
-              Grafika New Orlean vs Golden Star
-            </h4>
-            <p class="description-product-card-2">Dizajn</p>
-          </li>
-          <li class="product-card">
-            <img
-              src="./images/img7.jpg"
-              alt="Restauracja Seafood"
-              width="370"
-              height="294"
-            />
-            <h4 class="description-product-card">Restauracja Seafood</h4>
-            <p class="description-product-card-2">Aplikacja</p>
-          </li>
-          <li class="product-card">
-            <img
-              src="./images/img6.jpg"
-              alt="Projekt Prime"
-              width="370"
-              height="294"
-            />
-            <h4 class="description-product-card">Projekt Prime</h4>
-            <p class="description-product-card-2">Marketing</p>
-          </li>
-          <li class="product-card">
-            <img
-              src="./images/img5.jpg"
-              alt="Projekt Boxes"
-              width="370"
-              height="294"
-            />
-            <h4 class="description-product-card">Projekt Boxes</h4>
-            <p class="description-product-card-2">Aplikacja</p>
-          </li>
-          <li class="product-card">
-            >
-            <img
-              src="./images/img4.jpg"
-              alt="Inspiration has no Borders"
-              width="370"
-              height="294"
-            />
-            <h4 class="description-product-card">Inspiration has no Borders</h4>
-            <p class="description-product-card-2">Strona internetowa</p>
-          </li>
-          <li class="product-card">
-            <img
-              src="./images/img3.jpg"
-              alt="Magazyn Limited Edition"
-              width="370"
-              height="294"
-            />
-            <h4 class="description-product-card">Magazyn Limited Edition</h4>
-            <p class="description-product-card-2">Dizajn</p>
-          </li>
-          <li class="product-card">
-            <img
-              src="./images/img2.jpg"
-              alt="Projekt LAB"
-              width="370"
-              height="294"
-            />
-            <h4 class="description-product-card">Projekt LAB</h4>
-            <p class="description-product-card-2">Marketing</p>
-          </li>
-          <li class="product-card">
-            <img
-              src="./images/img1.jpg"
-              alt="Growing Business"
-              width="370"
-              height="294"
-            />
-            <h4 class="description-product-card">Growing Business</h4>
-            <p class="description-product-card-2">Aplikacja</p>
-          </li>
-        </ul>
-      </section>
+    <main class="main-portfolio">
+      <div class="container">
+        <div class="section-button">
+          <button class="button" type="button">Wszystkie</button>
+          <button class="button" type="button">Strony</button>
+          <button class="button" type="button">Aplikacje</button>
+          <button class="button" type="button">Dizajn</button>
+          <button class="button" type="button">Marketing</button>
+        </div>
+        <section class="container padding">
+          <ul class="list-product list-none-style">
+            <li class="product-card">
+              <img
+                src="./images/img0.jpg"
+                alt="Technocrack"
+                width="370"
+                height="294"
+              />
+              <h4 class="description-product-card">Technocrack</h4>
+              <p class="description-product-card-2">Strona internetowa</p>
+            </li>
+            <li class="product-card">
+              <img
+                src="./images/img8.jpg"
+                alt="Grafika New Orlean vs Golden Star"
+                width="370"
+                height="294"
+              />
+              <h4 class="description-product-card">
+                Grafika New Orlean vs Golden Star
+              </h4>
+              <p class="description-product-card-2">Dizajn</p>
+            </li>
+            <li class="product-card">
+              <img
+                src="./images/img7.jpg"
+                alt="Restauracja Seafood"
+                width="370"
+                height="294"
+              />
+              <h4 class="description-product-card">Restauracja Seafood</h4>
+              <p class="description-product-card-2">Aplikacja</p>
+            </li>
+            <li class="product-card">
+              <img
+                src="./images/img6.jpg"
+                alt="Projekt Prime"
+                width="370"
+                height="294"
+              />
+              <h4 class="description-product-card">Projekt Prime</h4>
+              <p class="description-product-card-2">Marketing</p>
+            </li>
+            <li class="product-card">
+              <img
+                src="./images/img5.jpg"
+                alt="Projekt Boxes"
+                width="370"
+                height="294"
+              />
+              <h4 class="description-product-card">Projekt Boxes</h4>
+              <p class="description-product-card-2">Aplikacja</p>
+            </li>
+            <li class="product-card">
+              <img
+                src="./images/img4.jpg"
+                alt="Inspiration has no Borders"
+                width="370"
+                height="294"
+              />
+              <h4 class="description-product-card">
+                Inspiration has no Borders
+              </h4>
+              <p class="description-product-card-2">Strona internetowa</p>
+            </li>
+            <li class="product-card">
+              <img
+                src="./images/img3.jpg"
+                alt="Magazyn Limited Edition"
+                width="370"
+                height="294"
+              />
+              <h4 class="description-product-card">Magazyn Limited Edition</h4>
+              <p class="description-product-card-2">Dizajn</p>
+            </li>
+            <li class="product-card">
+              <img
+                src="./images/img2.jpg"
+                alt="Projekt LAB"
+                width="370"
+                height="294"
+              />
+              <h4 class="description-product-card">Projekt LAB</h4>
+              <p class="description-product-card-2">Marketing</p>
+            </li>
+            <li class="product-card">
+              <img
+                src="./images/img1.jpg"
+                alt="Growing Business"
+                width="370"
+                height="294"
+              />
+              <h4 class="description-product-card">Growing Business</h4>
+              <p class="description-product-card-2">Aplikacja</p>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
     <footer>
-      <a class="footer-1 link-no-underline" href="./index.html"
-        ><span class="logo-recolor">Web</span>Studio</a
-      >
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <ul class="list-none-style">
-        <li>
-          <a
-            class="contact-footer link-no-underline"
-            href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-
-        <li>
-          <a class="contact-footer link-no-underline" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
+      <div class="container">
+        <a class="footer-1 link-no-underline" href="./index.html"
+          ><span class="logo-recolor">Web</span>Studio</a
+        >
+        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+        <ul class="list-none-style">
+          <li>
+            <a
+              class="contact-footer link-no-underline"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-footer link-no-underline" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
