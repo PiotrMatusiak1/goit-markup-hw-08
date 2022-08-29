@@ -222,6 +222,16 @@ footer {
   padding: 94px 0 15px 0;
 }
 
+.our-team-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+}
+
 .list-doing {
   display: flex;
   gap: 15px;
