@@ -219,6 +219,7 @@ footer {
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
+  padding: 94px 0 15px 0;
 }
 
 .list-doing {
@@ -248,6 +249,7 @@ footer {
 .list-person {
   display: flex;
   gap: 15px;
+  padding-bottom: 94px;
 }
 
 .team > li {
@@ -264,6 +266,9 @@ footer {
   flex-direction: column;
   gap: 20px;
   padding: 55.5px 0;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 0 51px 0;
 }
 
 .footer-1 {
@@ -301,6 +306,26 @@ address {
   letter-spacing: 1.714;
   color: var(--colorWhite);
   padding-top: 20px;
+}
+
+.main-portfolio {
+  padding: 94px 0;
+  display: flex;
+  background: var(--colorWhite);
+}
+
+.section-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.list-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .main-portfolio {
