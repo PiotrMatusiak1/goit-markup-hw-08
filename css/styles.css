@@ -19,6 +19,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .box-header {
@@ -32,6 +33,10 @@ header {
   width: 100%;
   background: #ffffff;
   border: 1px solid #ececec;
+}
+
+.section {
+  padding: 94px 0;
 }
 
 footer {
@@ -61,7 +66,7 @@ footer {
 }
 
 .section-paragraph {
-  padding: 15px 0 15px 0;
+  width: 1170 px;
 }
 
 .list-flex {
@@ -116,6 +121,7 @@ footer {
   width: 121px;
   height: 38px;
   border-radius: 4px;
+  border: 0;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -142,6 +148,7 @@ footer {
   background: var(--MainColor);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -212,13 +219,11 @@ footer {
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
-  padding: 94px 0 15px 0;
 }
 
 .list-doing {
   display: flex;
   gap: 15px;
-  padding: 15px 0 94px 0;
 }
 
 .person-name {
@@ -243,7 +248,6 @@ footer {
 .list-person {
   display: flex;
   gap: 15px;
-  padding-bottom: 94px;
 }
 
 .team > li {
@@ -317,12 +321,4 @@ address {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-}
-
-.padding {
-  padding: 94px 0;
-}
-
-.margin-none {
-  margin: 0;
 }
