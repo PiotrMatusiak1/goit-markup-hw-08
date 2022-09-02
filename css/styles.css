@@ -118,6 +118,10 @@ footer {
 }
 
 .team-social {
+  display: flex;
+  gap: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
   margin-bottom: 30px;
 }
 
@@ -125,9 +129,11 @@ footer {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  fill: #afb1b8;
 }
 
-.svg-social:hover {
+.svg-social:hover,
+.svg-social:focus {
   background-color: var(--MainColor);
   fill: var(--colorWhite);
 }
