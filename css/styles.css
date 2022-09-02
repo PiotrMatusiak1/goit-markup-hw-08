@@ -11,6 +11,11 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .white {
   width: 100%;
   background: var(--colorWhite);
@@ -25,8 +30,9 @@ body {
 .box-header {
   display: flex;
   align-items: center;
-  background: #ffffff;
+  background: var(--colorWhite);
   margin: 0 auto;
+  height: 80px;
 }
 
 header {
@@ -53,7 +59,7 @@ footer {
 .contact-list {
   display: flex;
   gap: 46px;
-  padding-left: 371px;
+  margin-left: auto;
 }
 
 .main-section {
@@ -166,6 +172,7 @@ footer {
   letter-spacing: 0.06em;
   color: #212121;
   padding: 20px 24px 4px 24px;
+  margin-top: 0;
 }
 
 .description-product-card-2 {
@@ -178,8 +185,17 @@ footer {
   padding: 0px 24px 20px 24px;
 }
 
-.product-card {
-  border: 1px solid #eeeeee;
+.border-card {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  margin: 0;
+  padding: 0;
+}
+
+.product-card:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .main-text {
@@ -234,7 +250,7 @@ footer {
 
 .list-doing {
   display: flex;
-  gap: 15px;
+  gap: 30px;
 }
 
 .person-name {
@@ -258,13 +274,13 @@ footer {
 
 .list-person {
   display: flex;
-  gap: 15px;
-  padding-bottom: 94px;
+  gap: 30px;
 }
 
 .team > li {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: var(--colorWhite);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -274,7 +290,7 @@ footer {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   padding: 55.5px 0;
   flex-direction: column;
   justify-content: center;
@@ -328,14 +344,15 @@ address {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 8px;
+  padding-bottom: 45px;
 }
 
 .list-product {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
+  padding: 0;
 }
 
 .main-portfolio {
@@ -344,16 +361,9 @@ address {
   background: var(--colorWhite);
 }
 
-.section-button {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-
 .list-product {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
