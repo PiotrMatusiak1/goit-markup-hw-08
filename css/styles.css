@@ -76,6 +76,10 @@ footer {
   width: 1170 px;
 }
 
+.svg-strength {
+  background-color: #f5f4fa;
+}
+
 .list-flex {
   display: flex;
   justify-content: flex-start;
