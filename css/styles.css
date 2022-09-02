@@ -119,8 +119,20 @@ footer {
 
 .team-social {
   display: flex;
+  align-items: center;
   gap: 10px;
   margin-bottom: 30px;
+}
+
+.svg-social {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.svg-social:hover {
+  background-color: var(--MainColor);
+  fill: var(--colorWhite);
 }
 
 .header-2 {
