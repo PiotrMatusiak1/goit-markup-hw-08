@@ -64,11 +64,12 @@ footer {
 
 .main-section {
   height: 600px;
-  background: var(--backgroundSecondary);
+  width: 1600px;
+  justify-content: center;
+  background-image: url(https://raw.githubusercontent.com/PiotrMatusiak1/goit-markup-hw-04/main/images/mainjpg.jpg);
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .section-paragraph {
