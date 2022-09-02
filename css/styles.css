@@ -62,14 +62,20 @@ footer {
   margin-left: auto;
 }
 
+main {
+  background-color: var(--colorWhite);
+}
+
 .main-section {
   height: 600px;
   width: 1600px;
   justify-content: center;
   background-image: url(https://raw.githubusercontent.com/PiotrMatusiak1/goit-markup-hw-04/main/images/mainjpg.jpg);
+  background-color: var(--colorWhite);
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .section-paragraph {
@@ -130,6 +136,15 @@ footer {
   height: 44px;
   border-radius: 50%;
   fill: #afb1b8;
+  cursor: pointer;
+}
+
+.svg-client {
+  width: 170px;
+  height: 92px;
+  cursor: pointer;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .svg-social:hover,
@@ -309,6 +324,11 @@ footer {
 }
 
 .person {
+  width: 100%;
+  background: #f5f4fa;
+}
+
+.customer {
   width: 100%;
   background: #f5f4fa;
 }
