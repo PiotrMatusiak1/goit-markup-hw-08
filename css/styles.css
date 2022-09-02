@@ -114,6 +114,14 @@ footer {
   color: #212121;
 }
 
+.svg-contact {
+  fill: #757575;
+}
+
+.svg-contact:hover {
+  fill: var(--colorWhite);
+}
+
 .link-no-underline {
   text-decoration: none;
 }
