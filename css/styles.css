@@ -339,15 +339,10 @@ main {
   background: var(--colorWhite);
 }
 
-.list-person {
+.list-person,
+.list-customer {
   display: flex;
   gap: 30px;
-}
-
-.list-customer {
-  gap: 15px;
-  display: flex;
-  align-items: center;
 }
 
 .team > li {
