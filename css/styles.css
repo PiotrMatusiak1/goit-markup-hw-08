@@ -3,6 +3,7 @@
   --backgroundSecondary: #2f303a;
   --colorGrey: #757575;
   --colorWhite: #ffffff;
+  --colorFill: #afb1b8;
 }
 
 body {
@@ -135,7 +136,7 @@ main {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: #afb1b8;
+  fill: var(--colorFill);
   cursor: pointer;
 }
 
@@ -143,7 +144,7 @@ main {
   width: 170px;
   height: 92px;
   cursor: pointer;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--colorFill);
   border-radius: 4px;
 }
 
