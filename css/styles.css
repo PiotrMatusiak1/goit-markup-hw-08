@@ -154,6 +154,11 @@ main {
   fill: var(--colorWhite);
 }
 
+.svg-client:hover {
+  fill: var(--MainColor);
+  border: 1px solid var(--MainColor);
+}
+
 .header-2 {
   font-style: normal;
   font-weight: 500;
@@ -337,6 +342,12 @@ main {
 .list-person {
   display: flex;
   gap: 30px;
+}
+
+.list-customer {
+  gap: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .team > li {
