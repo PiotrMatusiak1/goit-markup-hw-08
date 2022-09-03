@@ -264,7 +264,7 @@ main {
   text-transform: uppercase;
   width: 650px;
   text-align: center;
-  color: #ffffff;
+  color: var(--colorWhite);
 }
 
 .paragraph-heading {
@@ -331,7 +331,7 @@ main {
 
 .customer {
   width: 100%;
-  background: #f5f4fa;
+  background: var(--colorWhite);
 }
 
 .list-person {
