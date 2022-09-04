@@ -147,11 +147,7 @@ main {
 .svg-social:hover,
 .svg-social:focus {
   background-color: var(--MainColor);
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  fill: var(--colorFill);
-  cursor: pointer;
+  fill: var(--colorWhite);
 }
 
 .svg-client:hover {
