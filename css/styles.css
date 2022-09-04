@@ -46,11 +46,6 @@ header {
   padding: 94px 0;
 }
 
-footer {
-  width: 100%;
-  align-items: center;
-}
-
 .list-header {
   display: flex;
   gap: 46px;
@@ -146,12 +141,17 @@ main {
   cursor: pointer;
   border: 1px solid var(--colorFill);
   border-radius: 4px;
+  fill: #afb1b8;
 }
 
 .svg-social:hover,
 .svg-social:focus {
   background-color: var(--MainColor);
-  fill: var(--colorWhite);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--colorFill);
+  cursor: pointer;
 }
 
 .svg-client:hover {
@@ -168,8 +168,8 @@ main {
   color: #212121;
 }
 
-.svg-contact {
-  fill: #757575;
+.svg-contact:hover {
+  fill: var(--colorWhite);
 }
 
 .svg-contact:hover {
@@ -353,16 +353,44 @@ main {
 }
 
 footer {
+  width: 100%;
   background-color: var(--backgroundSecondary);
   height: 252px;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
   gap: 30px;
   padding: 55.5px 0;
-  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 60px 0 51px 0;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: wrap;
+  gap: 60px;
+}
+
+.join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--colorWhite);
+}
+
+.svg-social-footer {
+  fill: var(--colorWhite);
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.svg-social-footer:hover {
+  background: var(--MainColor);
 }
 
 .footer-1 {
