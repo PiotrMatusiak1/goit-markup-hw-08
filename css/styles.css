@@ -127,12 +127,23 @@ main {
   margin-bottom: 30px;
 }
 
-.svg-social {
+.team-social a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   fill: var(--colorFill);
+  background-color: var(--colorWhite);
+}
+
+.svg-social {
+  fill: currentColor;
   cursor: pointer;
+}
+
+.team-social a:hover,
+.team-social a:focus {
+  fill: var(--colorFill);
+  background-color: var(--colorWhite);
 }
 
 .svg-client {
