@@ -131,8 +131,10 @@ main {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--colorFill);
+  fill: var(--colorGrey);
   background-color: var(--colorWhite);
+  justify-content: center;
+  align-items: center;
 }
 
 .svg-social {
