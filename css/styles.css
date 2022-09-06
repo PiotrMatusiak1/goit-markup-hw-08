@@ -108,6 +108,15 @@ main {
   color: var(--MainColor);
 }
 
+.contact-header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--colorGrey);
+}
+
 .header-1 {
   font-family: "Raleway";
   font-style: normal;
@@ -178,10 +187,6 @@ main {
 
 .svg-contact:hover {
   fill: var(--MainColor);
-}
-
-.svg-contact:hover {
-  fill: var(--colorWhite);
 }
 
 .link-no-underline {
@@ -423,14 +428,6 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.contact-header {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: var(--colorGrey);
-}
 .contact-footer {
   font-style: normal;
   font-weight: 400;
