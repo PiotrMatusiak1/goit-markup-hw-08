@@ -66,8 +66,7 @@ main {
   height: 600px;
   width: 1600px;
   justify-content: center;
-  background-image: url(https://raw.githubusercontent.com/PiotrMatusiak1/goit-markup-hw-04/main/images/mainjpg.jpg);
-  background-color: var(--colorWhite);
+  background-image: url(../images/mainjpg.jpg);
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -128,18 +127,18 @@ main {
 }
 
 .team-social a {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
   fill: var(--colorGrey);
   background-color: var(--colorWhite);
   justify-content: center;
   align-items: center;
 }
 
-.svg-social {
+.team-social svg {
   fill: currentColor;
   cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
 }
 
 .team-social a:hover,
@@ -378,6 +377,7 @@ footer {
   display: flex;
   flex-direction: wrap;
   gap: 60px;
+  align-items: flex-start;
 }
 
 .join-us {
@@ -387,6 +387,17 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--colorWhite);
+  margin: 0;
+}
+
+.join-us-list {
+  width: 210px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  gap: 10px;
 }
 
 .svg-social-footer {
