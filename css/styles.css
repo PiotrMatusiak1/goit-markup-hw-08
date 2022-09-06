@@ -134,7 +134,7 @@ main {
 }
 
 .team-social svg {
-  fill: currentColor;
+  fill: var(--colorGrey);
   cursor: pointer;
   width: 44px;
   height: 44px;
