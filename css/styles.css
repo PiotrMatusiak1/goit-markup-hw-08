@@ -185,10 +185,6 @@ main {
   color: #212121;
 }
 
-.svg-contact:hover {
-  fill: var(--MainColor);
-}
-
 .link-no-underline {
   text-decoration: none;
 }
