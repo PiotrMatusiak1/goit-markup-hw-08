@@ -177,7 +177,7 @@ main {
 }
 
 .svg-contact:hover {
-  fill: var(--colorWhite);
+  fill: var(--MainColor);
 }
 
 .svg-contact:hover {
