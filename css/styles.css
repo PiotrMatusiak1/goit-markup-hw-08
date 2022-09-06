@@ -131,14 +131,14 @@ main {
   background-color: var(--colorWhite);
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
   cursor: pointer;
 }
 
 .svg-social {
   fill: currentColor;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
 }
 
 .svg-social a:hover,
