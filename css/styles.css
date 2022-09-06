@@ -137,12 +137,12 @@ main {
   cursor: pointer;
 }
 
-.team-social svg {
+.svg-social {
   fill: currentColor;
 }
 
-.team-social a:hover,
-.team-social a:focus {
+.svg-social a:hover,
+.svg-social a:focus {
   fill: var(--colorFill);
   background-color: var(--colorWhite);
 }
