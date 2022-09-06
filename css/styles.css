@@ -134,11 +134,11 @@ main {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .team-social svg {
-  fill: var(--colorGrey);
-  cursor: pointer;
+  fill: currentColor;
 }
 
 .team-social a:hover,
