@@ -59,6 +59,14 @@ header {
   margin-left: auto;
 }
 
+.contact-header:hover {
+  color: var(--MainColor);
+}
+
+.svg-contact {
+  fill: currentColor;
+}
+
 main {
   background-color: var(--colorWhite);
 }
