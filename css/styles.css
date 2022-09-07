@@ -103,8 +103,8 @@ main {
 .footer-2:hover,
 .contact-footer:hover,
 .contact-footer:focus,
-.contact-list > li:hover,
-.contact-list > li:focus {
+.contact-headert > li:hover,
+.contact-header > li:focus {
   color: var(--MainColor);
 }
 
