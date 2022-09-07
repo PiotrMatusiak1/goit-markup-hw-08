@@ -67,7 +67,8 @@ main {
   height: 600px;
   width: 1600px;
   justify-content: center;
-  background-image: linear-gradient var(--gradient), url(../images/mainjpg.jpg);
+  background-image: linear-gradient(var(--gradient), var(--gradient)),
+    url(../images/mainjpg.jpg);
   align-items: center;
   display: flex;
   flex-direction: column;
