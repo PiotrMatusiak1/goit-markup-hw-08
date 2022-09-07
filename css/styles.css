@@ -4,6 +4,7 @@
   --colorGrey: #757575;
   --colorWhite: #ffffff;
   --colorFill: #afb1b8;
+  --gradient: rgba(47, 48, 58, 0.4);
 }
 
 body {
@@ -38,7 +39,7 @@ ul {
 
 header {
   width: 100%;
-  background: #ffffff;
+  background: var(--colorWhite);
   border: 1px solid #ececec;
 }
 
@@ -66,7 +67,7 @@ main {
   height: 600px;
   width: 1600px;
   justify-content: center;
-  background-image: url(../images/mainjpg.jpg);
+  background-image: linear-gradient var(--gradient), url(../images/mainjpg.jpg);
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -95,7 +96,7 @@ main {
 }
 
 .logo-recolor {
-  color: #2196f3;
+  color: var(--MainColor);
 }
 
 .header-2:hover,
