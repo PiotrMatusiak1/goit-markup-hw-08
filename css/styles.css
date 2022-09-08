@@ -112,10 +112,13 @@ main {
 .header-2:focus,
 .footer-2:hover,
 .contact-footer:hover,
-.contact-footer:focus,
-.contact-headert > li:hover,
-.contact-header > li:focus {
+.contact-footer:focus {
   color: var(--MainColor);
+}
+
+.contact-headert:hover,
+.contact-header:focus {
+  --icon-color: currentColor;
 }
 
 .contact-header {
