@@ -170,6 +170,12 @@ main {
   background-color: var(--colorWhite);
 }
 
+.svg-social:hover,
+.svg-social:focus {
+  background-color: var(--MainColor);
+  fill: var(--colorWhite);
+}
+
 .svg-client {
   width: 170px;
   height: 92px;
@@ -177,12 +183,6 @@ main {
   border: 1px solid var(--colorFill);
   border-radius: 4px;
   fill: #afb1b8;
-}
-
-.svg-social:hover,
-.svg-social:focus {
-  background-color: var(--MainColor);
-  fill: var(--colorWhite);
 }
 
 .svg-client:hover,
