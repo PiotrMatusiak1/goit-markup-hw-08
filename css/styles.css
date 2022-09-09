@@ -157,6 +157,11 @@ main {
   cursor: pointer;
 }
 
+.team-social a:focus svg {
+  background-color: var(--MainColor);
+  fill: var(--colorWhite);
+}
+
 .svg-social {
   fill: var(--colorGrey);
   width: 44px;
@@ -164,14 +169,12 @@ main {
   border-radius: 50%;
 }
 
-.svg-social a:hover,
-.svg-social a:focus {
+.svg-social a:hover {
   fill: var(--colorFill);
   background-color: var(--colorWhite);
 }
 
-.svg-social:hover,
-.svg-social:focus {
+.svg-social:hover {
   background-color: var(--MainColor);
   fill: var(--colorWhite);
 }
@@ -185,8 +188,12 @@ main {
   fill: #afb1b8;
 }
 
-.svg-client:hover,
-.svg-client:focus {
+.svg-client:hover {
+  fill: var(--MainColor);
+  border: 1px solid var(--MainColor);
+}
+
+.list-customer a:focus {
   fill: var(--MainColor);
   border: 1px solid var(--MainColor);
 }
@@ -425,6 +432,10 @@ footer {
 }
 
 .svg-social-footer:hover {
+  background: var(--MainColor);
+}
+
+.join-us-list a:focus svg {
   background: var(--MainColor);
 }
 
