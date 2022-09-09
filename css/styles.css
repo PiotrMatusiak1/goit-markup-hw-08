@@ -59,7 +59,8 @@ header {
   margin-left: auto;
 }
 
-.contact-header:hover {
+.contact-header:hover,
+.contact-header:focus {
   color: var(--MainColor);
 }
 
@@ -184,7 +185,8 @@ main {
   fill: var(--colorWhite);
 }
 
-.svg-client:hover {
+.svg-client:hover,
+.svg-client:focus {
   fill: var(--MainColor);
   border: 1px solid var(--MainColor);
 }
@@ -401,16 +403,15 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--colorWhite);
-  margin: 0;
+  margin-top: 10px;
 }
 
 .join-us-list {
   width: 210px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 12px;
+  margin-top: 20px;
   gap: 10px;
 }
 
