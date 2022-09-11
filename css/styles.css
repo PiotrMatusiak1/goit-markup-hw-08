@@ -177,6 +177,7 @@ main {
 .svg-social a:hover {
   fill: var(--colorFill);
   background-color: var(--colorWhite);
+  transition: var(--transition);
 }
 
 .svg-social:hover {
