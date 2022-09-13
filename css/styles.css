@@ -205,7 +205,6 @@ main {
     fill var(--cubic) var(--duration);
 }
 
-
 .svg-client:hover {
   fill: var(--MainColor);
   border: 1px solid var(--MainColor);
@@ -250,7 +249,6 @@ main {
   font-family: "Roboto";
   transition: background-color var(--cubic) var(--duration),
     color var(--cubic) var(--duration);
-}
 }
 
 .button:focus {
@@ -492,7 +490,6 @@ footer {
   transition: background-color var(--cubic) var(--duration);
 }
 
-
 .svg-social-footer:hover {
   background: var(--MainColor);
 }
@@ -631,7 +628,7 @@ address {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  }
+}
 
 .modal svg {
   fill: #000000;
