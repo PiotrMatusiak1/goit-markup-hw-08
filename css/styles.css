@@ -279,7 +279,7 @@ main {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: var(--colorWhite);
-  transition: ;
+  transition: background-color var(--cubic) 0.8s;
 }
 
 .button-service:hover,
