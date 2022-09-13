@@ -201,10 +201,10 @@ main {
   border: 1px solid var(--colorFill);
   border-radius: 4px;
   fill: var(--colorFill);
-  transition: background-color var(--cubic) var(--duration),
+  transition: color var(--cubic) var(--duration),
     fill var(--cubic) var(--duration);
 }
-}
+
 
 .svg-client:hover {
   fill: var(--MainColor);
