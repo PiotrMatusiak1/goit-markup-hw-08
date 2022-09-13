@@ -649,6 +649,6 @@ address {
     background-color var(--duration) var(--cubic);
 }
 
-.close-button {
+.close-button:hover {
   background-color: var(--colorGrey);
 }
