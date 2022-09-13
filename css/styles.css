@@ -645,5 +645,10 @@ address {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-  transition: opacity var(--duration) linear;
+  transition: opacity var(--duration) linear,
+    background-color var(--duration) var(--cubic);
+}
+
+.close-button {
+  background-color: var(--colorGrey);
 }
