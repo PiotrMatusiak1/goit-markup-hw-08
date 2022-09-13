@@ -6,7 +6,7 @@
   --colorFill: #afb1b8;
   --gradient: rgba(47, 48, 58, 0.4);
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 250ms;
 }
 
 body {
@@ -61,12 +61,6 @@ header {
   margin-left: auto;
 }
 
-.contact-header:hover,
-.contact-header:focus {
-  transition: var(--transition);
-  color: var(--MainColor);
-}
-
 .svg-contact {
   fill: currentColor;
 }
@@ -77,7 +71,7 @@ main {
 
 .main-section {
   height: 600px;
-  width: 1600px;
+  max-width: 1600px;
   justify-content: center;
   background-image: linear-gradient(var(--gradient), var(--gradient)),
     url(../images/mainjpg.jpg);
@@ -112,18 +106,22 @@ main {
   color: var(--MainColor);
 }
 
+.header-2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.516;
+  letter-spacing: 0.02em;
+  color: #212121;
+  transition: color var(--duration) var(--cubic);
+}
+
 .header-2:hover,
 .header-2:focus,
 .footer-2:hover,
 .contact-footer:hover,
 .contact-footer:focus {
-  transition: var(--transition);
   color: var(--MainColor);
-}
-
-.contact-headert:hover,
-.contact-header:focus {
-  --icon-color: currentColor;
 }
 
 .contact-header {
@@ -133,6 +131,17 @@ main {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--colorGrey);
+  transition: color var(--duration) var(--cubic);
+}
+
+.contact-header:hover,
+.contact-header:focus {
+  color: var(--MainColor);
+}
+
+.contact-headert:hover,
+.contact-header:focus {
+  --icon-color: currentColor;
 }
 
 .header-1 {
@@ -164,7 +173,6 @@ main {
 .team-social a:focus svg {
   background-color: var(--MainColor);
   fill: var(--colorWhite);
-  transition: var(--transition);
 }
 
 .svg-social {
@@ -172,18 +180,18 @@ main {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition: background-color var(--cubic) var(--duration),
+    fill var(--cubic) var(--duration);
 }
 
 .svg-social a:hover {
   fill: var(--colorFill);
   background-color: var(--colorWhite);
-  transition: var(--transition);
 }
 
 .svg-social:hover {
   background-color: var(--MainColor);
   fill: var(--colorWhite);
-  transition: var(--transition);
 }
 
 .svg-client {
@@ -193,27 +201,19 @@ main {
   border: 1px solid var(--colorFill);
   border-radius: 4px;
   fill: var(--colorFill);
+  transition: background-color var(--cubic) var(--duration),
+    fill var(--cubic) var(--duration);
+}
 }
 
 .svg-client:hover {
   fill: var(--MainColor);
   border: 1px solid var(--MainColor);
-  transition: var(--transition);
 }
 
 .list-customer a:focus svg {
   fill: var(--MainColor);
   border: 1px solid var(--MainColor);
-  transition: var(--transition);
-}
-
-.header-2 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.516;
-  letter-spacing: 0.02em;
-  color: #212121;
 }
 
 .active::after {
@@ -248,13 +248,15 @@ main {
   line-height: 26px;
   cursor: pointer;
   font-family: "Roboto";
+  transition: background-color var(--cubic) var(--duration),
+    fill var(--cubic) var(--duration);
+}
 }
 
 .button:focus {
   background: var(--MainColor);
   color: var(--colorWhite);
   border: 0;
-  transition: var(--transition);
 }
 
 .button:hover {
@@ -262,7 +264,6 @@ main {
   color: var(--colorWhite);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: var(--transition);
 }
 
 .button-service {
@@ -278,11 +279,12 @@ main {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: var(--colorWhite);
+  transition: ;
 }
 
 .button-service:hover,
 .button-service:focus {
-  transition: var(--transition);
+  background-color: var(--colorFill);
 }
 
 .description-product-card {
@@ -376,6 +378,10 @@ main {
 
 .list-doing-li {
   position: relative;
+}
+
+.list-doing-li > img {
+  display: block;
 }
 
 .list-doing-p {
@@ -483,16 +489,16 @@ footer {
   height: 44px;
   border-radius: 50%;
   cursor: pointer;
+  transition: background-color var(--cubic) var(--duration);
 }
+
 
 .svg-social-footer:hover {
   background: var(--MainColor);
-  transition: var(--transition);
 }
 
 .join-us-list a:focus svg {
   background: var(--MainColor);
-  transition: var(--transition);
 }
 
 .footer-1 {
@@ -512,6 +518,7 @@ footer {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  transition: color var(--cubic) var(--duration);
 }
 
 address {
@@ -522,6 +529,7 @@ address {
   letter-spacing: 1.714;
   color: var(--colorWhite);
   padding-top: 20px;
+  transition: color var(--cubic) var(--duration);
 }
 
 .main-portfolio {
@@ -549,6 +557,7 @@ address {
   position: absolute;
   width: 370px;
   overflow: hidden;
+  transition-property: transform var(--cubic) var(--duration);
 }
 
 .list-product-active:hover .overlay {
@@ -564,7 +573,7 @@ address {
   align-items: center;
   justify-content: center;
   padding: 49px 24px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: var(--duration) var(--cubic);
   transform: translateY(100%);
 }
 
@@ -600,12 +609,15 @@ address {
   width: 100%;
   height: 100%;
   background-color: rgba(000, 000, 000, 0.2);
+  opacity: 1;
+  transition: opacity 0.5s linear;
 }
 
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition: opacity 0.5s linear;
 }
 
 .modal {
@@ -619,7 +631,7 @@ address {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-}
+  }
 
 .modal svg {
   fill: #000000;
@@ -635,4 +647,5 @@ address {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  transition: opacity var(--duration) linear;
 }
