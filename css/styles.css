@@ -216,8 +216,8 @@ main {
 }
 
 .active::after,
-.active:hover::after,
-active:focus::after {
+.active:hover,
+.active:focus {
   content: "";
   display: block;
   width: 100%;
