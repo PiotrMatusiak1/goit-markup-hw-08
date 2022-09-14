@@ -176,7 +176,7 @@ main {
 }
 
 .svg-social {
-  fill: var(--colorGrey);
+  fill: rgba(175, 177, 184, 1);
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -215,7 +215,9 @@ main {
   border: 1px solid var(--MainColor);
 }
 
-.active::after {
+.active::after,
+.active:hover::after,
+active:focus::after {
   content: "";
   display: block;
   width: 100%;
@@ -248,7 +250,7 @@ main {
   cursor: pointer;
   font-family: "Roboto";
   transition: background-color var(--cubic) var(--duration),
-    color var(--cubic) var(--duration);
+    color var(--cubic) var(--duration), box-shadow var(--cubic) var(--duration);
 }
 
 .button:focus {
