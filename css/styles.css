@@ -113,10 +113,12 @@ main {
   line-height: 0.516;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: color var(--duration) var(--cubic);
+  transition: color var(--duration) var(--cubic),
+    transform var(--duration) var(--cubic);
 }
 
 .header-2:hover,
+.active,
 .header-2:focus,
 .footer-2:hover,
 .contact-footer:hover,
@@ -124,6 +126,30 @@ main {
   color: var(--MainColor);
 }
 
+.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  transform: translateY(29px);
+  background-color: var(--MainColor);
+  border-radius: 2px;
+}
+
+.no-active:hover::after,
+.no-active:focus::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  transform: translateY(29px);
+  background-color: var(--MainColor);
+  border-radius: 2px;
+}
 .contact-header {
   font-style: normal;
   font-weight: 400;
@@ -213,30 +239,6 @@ main {
 .list-customer a:focus svg {
   fill: var(--MainColor);
   border: 1px solid var(--MainColor);
-}
-
-.active::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  transform: translateY(29px);
-  background-color: var(--MainColor);
-  border-radius: 2px;
-}
-
-.active:hover,
-.active:focus {
-  display: block;
-  width: 100%;
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  transform: translateY(29px);
-  background-color: var(--MainColor);
-  border-radius: 2px;
 }
 
 .link-no-underline {
@@ -620,14 +622,14 @@ address {
   height: 100%;
   background-color: rgba(000, 000, 000, 0.2);
   opacity: 1;
-  transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear, visibility 0.5s linear;
 }
 
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear, visibility 0.5s linear;
 }
 
 .modal {
@@ -657,9 +659,11 @@ address {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-  transition: background-color var(--duration) var(--cubic);
+  transition: background-color var(--duration) var(--cubic),
+    transform var(--duration) var(--cubic);
 }
 
 .close-button:hover {
   background-color: var(--colorGrey);
+  transform: scale(1.25);
 }
