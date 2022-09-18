@@ -741,7 +741,7 @@ address {
   color: #757575;
 }
 
-.accept:before {
+.accept::before {
   display: inline-block;
   content: "";
   width: 16px;
