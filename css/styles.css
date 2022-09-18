@@ -766,9 +766,13 @@ address {
 } */
 
 .modal-icon {
-  position: relative;
+  position: absolute;
   fill: #212121;
   left: 10px;
+}
+
+form input {
+  position: relative;
 }
 
 .submit {
