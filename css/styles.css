@@ -739,6 +739,7 @@ address {
 
 .accept {
   position: relative;
+  padding-left: 15px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
