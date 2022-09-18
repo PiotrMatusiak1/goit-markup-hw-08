@@ -771,7 +771,7 @@ label svg {
   left: 10px;
 }
 
-form label {
+form input {
   position: relative;
 }
 
