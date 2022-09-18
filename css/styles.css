@@ -765,13 +765,17 @@ address {
   overflow: hidden;
 } */
 
-/* label svg {
+label svg {
   position: absolute;
   fill: #212121;
   transform: translateY(-50%);
   top: 50%;
   left: 10px;
-} */
+}
+
+form label {
+  position: relative;
+}
 
 .submit {
   margin: 30px 124px 0px 124px;
