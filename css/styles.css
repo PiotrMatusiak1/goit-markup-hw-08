@@ -744,15 +744,14 @@ address {
   cursor: pointer;
 }
 
-.accept::before {
+.accept {
   display: inline-block;
-  content: "";
   width: 16px;
   height: 16px;
   border: 2px solid #212121;
 }
 
-.checkbox:checked + .accept::before {
+.checkbox:checked + .accept {
   background-color: var(--MainColor);
   border: none;
   background-image: url(../images/icons.svg/#icon-icon-check);
@@ -772,7 +771,7 @@ address {
 .modal-icon {
   position: absolute;
   fill: #212121;
-  left: 10px;
+  left: 14px;
   bottom: 32px;
 }
 
