@@ -769,6 +769,8 @@ form svg {
   position: absolute;
   fill: #212121;
   transform: translateY(-50%);
+  top: 50%;
+  left: 10px;
 }
 
 .submit {
