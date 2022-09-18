@@ -731,6 +731,12 @@ address {
   margin-bottom: 20px;
 }
 
+.modal-icon-checked {
+  border: 2px solid #212121;
+  border-radius: 2px;
+  fill: var(--colorWhite);
+}
+
 .accept {
   position: relative;
   font-style: normal;
@@ -744,14 +750,14 @@ address {
   cursor: pointer;
 }
 
-.accept::before {
+/* .accept::before {
   content: "";
   width: 16px;
   height: 16px;
   border: 2px solid #212121;
-}
+} */
 
-.checkbox:checked + .accept::before {
+.checkbox:checked + .modal-icon-checked {
   background-color: var(--MainColor);
   border: none;
   background-image: url(../images/icons.svg/#icon-icon-check);
