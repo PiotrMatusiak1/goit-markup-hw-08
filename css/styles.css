@@ -771,10 +771,6 @@ address {
   left: 10px;
 }
 
-form input {
-  position: absolute;
-}
-
 .submit {
   margin: 30px 124px 0px 124px;
   width: 200px;
