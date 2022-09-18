@@ -682,7 +682,7 @@ address {
 
 .form-input {
   display: block;
-  padding-top: 4px;
+  padding: 12px 0 12px 42px;
   width: 448px;
   height: 40px;
   margin-top: 4px;
@@ -774,7 +774,6 @@ address {
 
 .label-modal {
   position: relative;
-  padding-left: 30px;
 }
 
 .submit {
