@@ -768,7 +768,8 @@ address {
 .modal-icon {
   position: absolute;
   fill: #212121;
-  left: 10px;
+  right: 40px;
+  bottom: 20px;
 }
 
 form input {
