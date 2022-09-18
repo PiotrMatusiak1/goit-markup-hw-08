@@ -746,13 +746,13 @@ address {
   content: "";
   width: 16px;
   height: 16px;
-  outline: 2px solid #000;
+  border: 2px solid #212121;
 }
 
-.accept:checked + input::before {
+.checkbox:checked + .accept::before {
   background-color: var(--MainColor);
   border: none;
-  background-image: url(../images/icons.svg/@icon-icon-check);
+  background-image: url(../images/icons.svg/#icon-icon-check);
 }
 
 .submit {
