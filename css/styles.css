@@ -754,7 +754,7 @@ address {
   background-image: url(../images/icons.svg/#icon-icon-check);
 }
 
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px 1px 1px 1px);
@@ -763,7 +763,7 @@ address {
   height: 1px;
   width: 1px;
   overflow: hidden;
-} */
+}
 
 .modal-icon {
   position: absolute;
