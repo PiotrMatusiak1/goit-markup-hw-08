@@ -750,13 +750,6 @@ address {
   cursor: pointer;
 }
 
-/* .accept::before {
-  content: "";
-  width: 16px;
-  height: 16px;
-  border: 2px solid #212121;
-} */
-
 .checkbox:checked + .modal-icon-checked {
   background-color: var(--MainColor);
   border: none;
