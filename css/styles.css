@@ -732,7 +732,6 @@ address {
 }
 
 .accept {
-  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -754,6 +753,17 @@ address {
   border: none;
   background-image: url(../images/icons.svg/#icon-icon-check);
 }
+
+/* .visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px 1px 1px 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+} */
 
 .submit {
   margin: 30px 124px 0px 124px;
