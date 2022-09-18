@@ -765,7 +765,7 @@ address {
   overflow: hidden;
 } */
 
-form svg {
+label svg {
   position: absolute;
   fill: #212121;
   transform: translateY(-50%);
