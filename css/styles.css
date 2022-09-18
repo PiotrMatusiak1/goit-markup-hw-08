@@ -732,12 +732,27 @@ address {
 }
 
 .accept {
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.accept:before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  outline: 2px solid #000;
+}
+
+.accept:checked + input::before {
+  background-color: var(--MainColor);
+  border: none;
+  background-image: url(../images/icons.svg/@icon-icon-check);
 }
 
 .submit {
@@ -755,18 +770,4 @@ address {
   color: var(--colorWhite);
   border: 0;
   cursor: pointer;
-}
-
-.accept:before {
-  display: inline-block;
-  content: "";
-  width: 16px;
-  height: 16px;
-  outline: 2px solid #000;
-}
-
-.accept:checked + input::before {
-  background-color: var(--MainColor);
-  border: none;
-  background-image: url(../images/icons.svg/@icon-icon-check);
 }
