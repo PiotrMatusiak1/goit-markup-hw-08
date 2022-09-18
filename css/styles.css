@@ -765,8 +765,8 @@ address {
   overflow: hidden;
 } */
 
-label svg {
-  position: absolute;
+.modal-icon {
+  position: relative;
   fill: #212121;
   left: 10px;
 }
