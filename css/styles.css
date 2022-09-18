@@ -765,8 +765,10 @@ address {
   overflow: hidden;
 } */
 
-.form svg {
+form svg {
   position: absolute;
+  fill: #212121;
+  transform: translateY(-50%);
 }
 
 .submit {
