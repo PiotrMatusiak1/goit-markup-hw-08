@@ -757,6 +757,14 @@ address {
   cursor: pointer;
 }
 
+.accept:before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  outline: 2px solid #000;
+}
+
 .accept:checked + input::before {
   background-color: var(--MainColor);
   border: none;
