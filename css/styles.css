@@ -772,7 +772,7 @@ address {
 }
 
 form input {
-  position: relative;
+  position: absolute;
 }
 
 .submit {
