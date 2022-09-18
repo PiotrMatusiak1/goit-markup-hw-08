@@ -765,6 +765,10 @@ address {
   overflow: hidden;
 } */
 
+.form svg {
+  position: absolute;
+}
+
 .submit {
   margin: 30px 124px 0px 124px;
   width: 200px;
