@@ -662,14 +662,13 @@ address {
   bottom: 13px;
   transition: background-color var(--cubic) 1s, fill var(--cubic) 1s;
 }
-/* 
+
 .btn-newsletter:hover > .svg-newsletter,
 .btn-newsletter:focus > .svg-newsletter {
-  background-colo: var(--MainColor);
+  background-color: var(--MainColor);
   fill: var(--colorFill);
-
 }
- */
+
 .backdrop {
   position: fixed;
   width: 528px;
