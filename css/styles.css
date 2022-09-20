@@ -646,7 +646,7 @@ address {
 .svg-newsletter {
   fill: var(--colorWhite);
   position: absolute;
-  right: 20px;
+  left: 20px;
 }
 
 .backdrop {
