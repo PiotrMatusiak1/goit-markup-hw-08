@@ -640,6 +640,7 @@ address {
   color: var(--colorWhite);
   border: 0;
   position: absolute;
+  align-items: center;
 }
 
 .svg-newsletter {
