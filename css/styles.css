@@ -818,8 +818,17 @@ address {
   bottom: 32px;
 }
 
+.label-input:focus-within .modal-icon {
+  color: currentColor;
+}
+
 .label-modal {
   position: relative;
+  margin-bottom: 10px;
+}
+
+.span-check {
+  color: rgba(33, 150, 243, 1);
 }
 
 .submit {
