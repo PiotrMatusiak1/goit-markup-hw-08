@@ -662,8 +662,9 @@ address {
   transition: background-color var(--cubic) 1s, fill var(--cubic) 1s;
 }
 
-.btn-newsletter:hover > .svg-newsletter,
-.btn-newsletter:focus > .svg-newsletter {
+.btn-newsletter:hover svg,
+.btn-newsletter:focus svg {
+  fill: var(--MainColor);
 }
 
 .backdrop {
