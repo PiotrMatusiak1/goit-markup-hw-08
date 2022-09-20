@@ -297,7 +297,9 @@ main {
 .button-service:hover,
 .button-service:focus,
 .btn-newsletter:hover,
-.btn-newsletter:focus {
+.btn-newsletter:focus,
+.submit:hover,
+.submit:focus {
   background-color: var(--colorFill);
 }
 
@@ -649,7 +651,8 @@ address {
 .svg-newsletter {
   fill: var(--colorWhite);
   position: absolute;
-  left: 20px;
+  left: 11px;
+  top: 3px;
 }
 
 .backdrop {
@@ -834,4 +837,5 @@ address {
   color: var(--colorWhite);
   border: 0;
   cursor: pointer;
+  transition: background-color var(--cubic) 0.8s;
 }
