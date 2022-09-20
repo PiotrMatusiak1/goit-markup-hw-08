@@ -662,6 +662,7 @@ address {
 
 .btn-newsletter:hover > .svg-newsletter,
 .btn-newsletter:focus > .svg-newsletter {
+  fill: var(--MainColor);
 }
 
 .backdrop {
