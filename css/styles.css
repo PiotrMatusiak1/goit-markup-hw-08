@@ -640,12 +640,12 @@ address {
   color: var(--colorWhite);
   border: 0;
   position: absolute;
-  align-items: center;
+  padding-left: 42px;
+  cursor: pointer;
 }
 
 .svg-newsletter {
-  fill: var(--colorWhite);
-  position: relative;
+  background-color: var(--MainColor);
 }
 
 .backdrop {
