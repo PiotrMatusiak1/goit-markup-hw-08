@@ -823,7 +823,8 @@ address {
   bottom: 42px;
 }
 
-.label-input:focus-within .modal-icon {
+.label-input:focus > .modal-icon,
+.label-input:hover > .modal-icon {
   fill: rgba(33, 150, 243, 1);
 }
 
