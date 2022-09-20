@@ -825,7 +825,7 @@ address {
 
 .label-input:focus > .modal-icon,
 .label-input:hover > .modal-icon {
-  fill: rgba(33, 150, 243, 1);
+  fill: var(--MainColor);
 }
 
 .label-modal {
