@@ -665,7 +665,6 @@ address {
 .btn-newsletter:hover svg,
 .btn-newsletter:focus svg {
   fill: var(--MainColor);
-  transition: fill var(--cubic) 1s;
 }
 
 .backdrop {
