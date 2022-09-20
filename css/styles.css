@@ -660,12 +660,14 @@ address {
   position: absolute;
   left: 148px;
   bottom: 13px;
-  transition: background-color var(--cubic) 1s;
+  transition: background-color var(--cubic) 1s, fill var(--cubic) 1s;
 }
 /* 
 .btn-newsletter:hover > .svg-newsletter,
 .btn-newsletter:focus > .svg-newsletter {
-  fill: var(--MainColor);
+  background-colo: var(--MainColor);
+  fill: var(--colorFill);
+
 }
  */
 .backdrop {
