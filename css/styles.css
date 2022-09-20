@@ -649,7 +649,7 @@ address {
   border: 0;
   position: relative;
   cursor: pointer;
-  transition: background-color var(--cubic) 0.8s;
+  transition: background-color var(--cubic) 1s;
 }
 
 .svg-newsletter {
@@ -657,7 +657,7 @@ address {
   position: absolute;
   left: 148px;
   bottom: 13px;
-  transition: fill var(--cubic) 0.8s;
+  transition: fill var(--cubic) 1s;
 }
 
 .btn-newsletter:hover > .svg-newsletter,
