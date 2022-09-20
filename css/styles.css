@@ -639,13 +639,13 @@ address {
   letter-spacing: 0.06em;
   color: var(--colorWhite);
   border: 0;
-  position: absolute;
+  position: relative;
   cursor: pointer;
 }
 
 .svg-newsletter {
   fill: var(--colorWhite);
-  position: relative;
+  position: absolute;
   bottom: 33px;
   right: 58px;
 }
