@@ -820,7 +820,7 @@ address {
   position: absolute;
   fill: #212121;
   left: 14px;
-  bottom: 32px;
+  bottom: 42px;
 }
 
 .label-input:focus-within .modal-icon {
