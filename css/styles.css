@@ -652,7 +652,7 @@ address {
   fill: var(--colorWhite);
   position: absolute;
   left: 148px;
-  bottom: 2px;
+  bottom: 13px;
 }
 
 .backdrop {
