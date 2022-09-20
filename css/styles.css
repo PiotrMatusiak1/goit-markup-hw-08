@@ -634,18 +634,19 @@ address {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  align-items: center;
-  text-align: center;
+  padding: 10px 0 10px 42px;
+  text-align: left;
   letter-spacing: 0.06em;
   color: var(--colorWhite);
   border: 0;
   position: absolute;
-  padding-left: 42px;
   cursor: pointer;
 }
 
 .svg-newsletter {
   fill: var(--colorWhite);
+  bottom: 6px;
+  right: 20px;
 }
 
 .backdrop {
