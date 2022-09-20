@@ -748,7 +748,7 @@ address {
 .form-input:focus,
 .form-input-comment:hover,
 .form-input-comment:focus {
-  border: var(--MainColor);
+  border: rgba(33, 150, 243, 1);
   box-shadow: none;
   outline: none;
 }
