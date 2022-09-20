@@ -645,6 +645,7 @@ address {
 }
 
 .svg-newsletter {
+  position: relative;
   background-color: var(--MainColor);
 }
 
