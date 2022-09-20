@@ -476,7 +476,7 @@ footer {
 .container-footer {
   display: flex;
   flex-direction: wrap;
-  gap: 60px;
+  gap: 70px;
   align-items: flex-start;
 }
 
@@ -627,6 +627,10 @@ address {
   color: var(--colorWhite);
   padding: 15px 16px;
   margin-right: 12px;
+}
+
+.div-newsletter {
+  margin-left: 15px;
 }
 
 .btn-newsletter {
@@ -819,7 +823,7 @@ address {
 }
 
 .label-input:focus-within .modal-icon {
-  color: currentColor;
+  fill: currentColor;
 }
 
 .label-modal {
