@@ -639,6 +639,12 @@ address {
   letter-spacing: 0.06em;
   color: var(--colorWhite);
   border: 0;
+  position: absolute;
+}
+
+.svg-newsletter {
+  fill: var(--colorWhite);
+  position: relative;
 }
 
 .backdrop {
