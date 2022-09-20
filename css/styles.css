@@ -824,7 +824,7 @@ address {
 }
 
 .label-input:focus-within .modal-icon {
-  fill: currentColor;
+  fill: rgba(33, 150, 243, 1);
 }
 
 .label-modal {
