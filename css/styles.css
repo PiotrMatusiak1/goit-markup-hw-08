@@ -300,7 +300,7 @@ main {
 .btn-newsletter:focus,
 .submit:hover,
 .submit:focus {
-  background-color: var(--colorFill);
+  background-color: #f5f4fa;
 }
 
 .description-product-card {
