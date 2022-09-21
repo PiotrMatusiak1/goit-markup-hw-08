@@ -291,7 +291,7 @@ main {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: var(--colorWhite);
-  transition: background-color var(--cubic) 0.8s;
+  transition: background-color var(--cubic) 1s, color var(--cubic) 1s;
 }
 
 .button-service:hover,
@@ -301,6 +301,7 @@ main {
 .submit:hover,
 .submit:focus {
   background-color: #f5f4fa;
+  color: var(--MainColor);
 }
 
 .description-product-card {
@@ -651,7 +652,7 @@ address {
   border: 0;
   position: relative;
   cursor: pointer;
-  transition: background-color var(--cubic) 1s;
+  transition: background-color var(--cubic) 1s, color var(--cubic) 1s;
 }
 
 .svg-newsletter {
@@ -859,5 +860,5 @@ address {
   color: var(--colorWhite);
   border: 0;
   cursor: pointer;
-  transition: background-color var(--cubic) 0.8s;
+  transition: background-color var(--cubic) 1s, color var(--cubic) 1s;
 }
