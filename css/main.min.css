@@ -305,8 +305,8 @@ main {
 .main-section__button:focus,
 .footer__newsletter__button:hover,
 .footer__newsletter__button:focus,
-.submit:hover,
-.submit:focus {
+.modal__submit:hover,
+.modal__submit:focus {
   background-color: #f5f4fa;
   color: var(--MainColor);
 }
