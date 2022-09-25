@@ -20,11 +20,6 @@ ul {
   padding: 0;
 }
 
-.white {
-  width: 100%;
-  background: var(--colorWhite);
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -36,7 +31,7 @@ ul {
   padding: 0;
 }
 
-.box-header {
+.header {
   display: flex;
   align-items: center;
   background: var(--colorWhite);
@@ -54,19 +49,22 @@ header {
   padding: 94px 0;
 }
 
-.list-header {
+.header__nav {
   display: flex;
   gap: 46px;
   padding-left: 93px;
+  list-style: none;
+  text-decoration: none;
 }
 
-.contact-list {
+.header__contact {
   display: flex;
   gap: 46px;
   margin-left: auto;
+  list-style: none;
 }
 
-.svg-contact {
+.header__contact-svg {
   fill: currentColor;
 }
 
@@ -84,13 +82,15 @@ main {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 94px 0;
 }
 
-.section-paragraph {
+.strength {
   width: 1170 px;
+  padding-top: 94px;
 }
 
-.svg-strength {
+.strength__svg {
   background-color: #f5f4fa;
   height: 120px;
   width: 270px;
@@ -101,17 +101,28 @@ main {
   align-items: center;
 }
 
-.list-flex {
+.strength__list {
   display: flex;
   justify-content: flex-start;
   gap: 30px;
+  list-style: none;
 }
 
-.logo-recolor {
+.services {
+  width: 1170px;
+  padding-bottom: 94px;
+}
+
+.header__logo-blue,
+.footer__logo-blue {
   color: var(--MainColor);
 }
 
-.header-2 {
+.footer__list {
+  list-style: none;
+}
+
+.header__list {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -120,18 +131,19 @@ main {
   color: #212121;
   transition: color var(--duration) var(--cubic),
     transform var(--duration) var(--cubic);
+  text-decoration: none;
 }
 
-.header-2:hover,
-.active,
-.header-2:focus,
+.header__list:hover,
+.header__list-active,
+.header__list:focus,
 .footer-2:hover,
 .contact-footer:hover,
 .contact-footer:focus {
   color: var(--MainColor);
 }
 
-.active::after {
+.header__list-active::after {
   content: "";
   display: block;
   width: 100%;
@@ -143,8 +155,8 @@ main {
   border-radius: 2px;
 }
 
-.no-active:hover::after,
-.no-active:focus::after {
+.header__list-noactive:hover::after,
+.header__list-noactive:focus::after {
   content: "";
   display: block;
   width: 100%;
@@ -155,7 +167,7 @@ main {
   background-color: var(--MainColor);
   border-radius: 2px;
 }
-.contact-header {
+.header__contact-details {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -163,19 +175,20 @@ main {
   letter-spacing: 0.03em;
   color: var(--colorGrey);
   transition: color var(--duration) var(--cubic);
+  text-decoration: none;
 }
 
-.contact-header:hover,
-.contact-header:focus {
+.header__contact-details:hover,
+.header__contact-details:focus {
   color: var(--MainColor);
 }
 
-.contact-headert:hover,
-.contact-header:focus {
+.header__contact-details:hover,
+.header__contact-details:focus {
   --icon-color: currentColor;
 }
 
-.header-1 {
+.header__logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -183,17 +196,19 @@ main {
   line-height: 1;
   letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
 }
 
-.team-social {
+.team__social {
   display: flex;
   gap: 10px;
   padding-left: 32px;
   padding-right: 32px;
   margin-bottom: 30px;
+  list-style: none;
 }
 
-.team-social a {
+.team__social a {
   fill: var(--colorGrey);
   background-color: var(--colorWhite);
   justify-content: center;
@@ -201,12 +216,12 @@ main {
   cursor: pointer;
 }
 
-.team-social a:focus svg {
+.team__social a:focus svg {
   background-color: var(--MainColor);
   fill: var(--colorWhite);
 }
 
-.svg-social {
+.team__svg {
   fill: rgba(175, 177, 184, 1);
   width: 44px;
   height: 44px;
@@ -215,17 +230,17 @@ main {
     fill var(--cubic) var(--duration);
 }
 
-.svg-social a:hover {
+.team__svg a:hover {
   fill: var(--colorFill);
   background-color: var(--colorWhite);
 }
 
-.svg-social:hover {
+.team__svg:hover {
   background-color: var(--MainColor);
   fill: var(--colorWhite);
 }
 
-.svg-client {
+.customer__svg {
   width: 170px;
   height: 92px;
   cursor: pointer;
@@ -236,12 +251,12 @@ main {
     fill var(--cubic) var(--duration);
 }
 
-.svg-client:hover {
+.customer__svg:hover {
   fill: var(--MainColor);
   border: 1px solid var(--MainColor);
 }
 
-.list-customer a:focus svg {
+.customer__list a:focus svg {
   fill: var(--MainColor);
   border: 1px solid var(--MainColor);
 }
@@ -283,7 +298,7 @@ main {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button-service {
+.main-section__button {
   width: 200px;
   height: 50px;
   background: var(--MainColor);
@@ -299,8 +314,8 @@ main {
   transition: background-color var(--cubic) 1s, color var(--cubic) 1s;
 }
 
-.button-service:hover,
-.button-service:focus,
+.main-section__button:hover,
+.main-section__button:focus,
 .btn-newsletter:hover,
 .btn-newsletter:focus,
 .submit:hover,
@@ -344,7 +359,7 @@ main {
   transition: box-shadow var(--cubic) var(--duration);
 }
 
-.main-text {
+.main-section__text {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -356,7 +371,7 @@ main {
   color: var(--colorWhite);
 }
 
-.paragraph-heading {
+.strength__heading {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -364,7 +379,7 @@ main {
   text-transform: uppercase;
 }
 
-.paragraph-text {
+.strength__text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -373,7 +388,7 @@ main {
   color: var(--colorGrey);
 }
 
-.secondary-heading {
+.services__heading {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -385,31 +400,21 @@ main {
   margin-top: 0;
 }
 
-.our-team-heading {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.166;
-  letter-spacing: 0.03em;
-  color: #212121;
-  text-align: center;
-  margin-top: 0;
-}
-
-.list-doing {
+.services__list {
   display: flex;
   gap: 30px;
+  list-style: none;
 }
 
-.list-doing-li {
+.services__card {
   position: relative;
 }
 
-.list-doing-li > img {
+.services__card > img {
   display: block;
 }
 
-.list-doing-p {
+.services__paragraph {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -426,12 +431,12 @@ main {
   padding-bottom: 27px;
 }
 
-.list-doing-li .list-doing-p {
+.services__card .services__paragraph {
   position: absolute;
   bottom: 0;
 }
 
-.person-name {
+.team__person {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -441,31 +446,46 @@ main {
   text-align: center;
 }
 
-.team > li > p {
-  text-align: center;
-}
-
-.person {
+.team {
   width: 100%;
   background: #f5f4fa;
+  padding: 94px 0;
+}
+
+.team__heading,
+.customer__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+  margin-top: 0;
+}
+
+.team__list > li {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: var(--colorWhite);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__list > li > p {
+  text-align: center;
 }
 
 .customer {
   width: 100%;
   background: var(--colorWhite);
+  padding: 94px 0;
 }
 
-.list-person,
-.list-customer {
+.team__list,
+.customer__list {
   display: flex;
   gap: 30px;
-}
-
-.team > li {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  background: var(--colorWhite);
-  border-radius: 0px 0px 4px 4px;
+  list-style: none;
 }
 
 footer {
@@ -481,14 +501,14 @@ footer {
   padding: 60px 0 51px 0;
 }
 
-.container-footer {
+.footer {
   display: flex;
   flex-direction: wrap;
   gap: 70px;
   align-items: flex-start;
 }
 
-.join-us {
+.footer__join-us {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -498,13 +518,14 @@ footer {
   margin-top: 10px;
 }
 
-.join-us-list {
+.footer__join-us__list {
   width: 210px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
   gap: 10px;
+  list-style: none;
 }
 
 .svg-social-footer {
@@ -521,11 +542,11 @@ footer {
   background: var(--MainColor);
 }
 
-.join-us-list a:focus svg {
+.footer__join-us__list a:focus svg {
   background: var(--MainColor);
 }
 
-.footer-1 {
+.footer__logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -533,9 +554,10 @@ footer {
   line-height: 1;
   color: var(--colorWhite);
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-.contact-footer {
+.footer__contact {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -543,6 +565,7 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--cubic) var(--duration);
+  text-decoration: none;
 }
 
 address {
