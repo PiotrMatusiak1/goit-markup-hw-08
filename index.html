@@ -573,7 +573,7 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-button" data-modal-close>
+        <button type="button" class="modal__close-button" data-modal-close>
           <svg>
             <use
               href="./images/icons.svg#icon-x"
@@ -584,18 +584,18 @@
             ></use>
           </svg>
         </button>
-        <h2 class="h2-modal">Zostaw swoje dane w formularzu poniżej</h2>
+        <h2 class="modal__heading">Zostaw swoje dane w formularzu poniżej</h2>
         <form>
-          <label class="label-modal"
-            ><span class="p-label">Imię</span>
+          <label class="modal__label"
+            ><span class="modal__label-text">Imię</span>
             <input
               type="text"
               name="full-name"
-              class="form-input"
+              class="modal__input"
               id="full-name"
               required
             />
-            <svg class="modal-icon" width="12" height="12">
+            <svg class="modal__icon" width="12" height="12">
               <use
                 width="12"
                 height="12"
@@ -603,16 +603,16 @@
               ></use>
             </svg>
           </label>
-          <label class="label-modal"
-            ><span class="p-label">Telefon</span>
+          <label class="modal__label"
+            ><span class="modal__label-text">Telefon</span>
             <input
               type="tel"
               name="phone"
-              class="form-input"
+              class="modal__input"
               id="phone"
               required
             />
-            <svg class="modal-icon" width="13" height="13">
+            <svg class="modal__icon" width="13" height="13">
               <use
                 width="13"
                 height="13"
@@ -620,16 +620,16 @@
               ></use>
             </svg>
           </label>
-          <label class="label-modal"
-            ><span class="p-label">Email</span>
+          <label class="modal__label"
+            ><span class="modal__label-text">Email</span>
             <input
               type="email"
               name="email"
-              class="form-input"
+              class="modal__input"
               id="email"
               required
             />
-            <svg class="modal-icon" width="15" height="12">
+            <svg class="modal__icon" width="15" height="12">
               <use
                 width="15"
                 height="12"
@@ -637,17 +637,21 @@
               ></use>
             </svg>
           </label>
-          <label class="label-modal"
-            ><span class="p-label">Komentarz</span>
+          <label class="modal__label"
+            ><span class="modal__label-text">Komentarz</span>
             <textarea
               name="coment-text"
-              class="form-input-comment"
+              class="modal__input-comment"
               placeholder="Wprowadź tekst"
             ></textarea>
           </label>
           <label class="accept"
-            ><input type="checkbox" class="checkbox visually-hidden" required />
-            <svg class="modal-icon-checked" width="16" height="15">
+            ><input
+              type="checkbox"
+              class="modal__input-checkbox visually-hidden"
+              required
+            />
+            <svg class="modal__icon-checked" width="16" height="15">
               <use
                 width="16"
                 height="15"
@@ -656,13 +660,13 @@
             </svg>
             <span>
               Oświadczam, iż akceptuję
-              <a href="#"><span class="span-check">Regulamin</span></a> i
+              <a href="#"><span class="modal__check">Regulamin</span></a> i
               <a href="#"
-                ><span class="span-check">Politykę Prywatności</span></a
+                ><span class="modal__check">Politykę Prywatności</span></a
               >.
             </span>
           </label>
-          <button class="submit" type="submit">Wyślij</button>
+          <button class="modal__submit" type="submit">Wyślij</button>
         </form>
       </div>
     </div>
