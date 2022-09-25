@@ -736,7 +736,7 @@ address {
   fill: #000000;
 }
 
-.close-button {
+.modal__close-button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -750,12 +750,12 @@ address {
     transform var(--duration) var(--cubic);
 }
 
-.close-button:hover {
+.modal__close-button:hover {
   background-color: var(--colorGrey);
   transform: scale(1.25);
 }
 
-.h2-modal {
+.modal__heading {
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
