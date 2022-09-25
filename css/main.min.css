@@ -529,7 +529,7 @@ footer {
   list-style: none;
 }
 
-.svg-social-footer {
+.footer__join-us__svg {
   fill: var(--colorWhite);
   background: rgba(255, 255, 255, 0.1);
   width: 44px;
@@ -539,7 +539,7 @@ footer {
   transition: background-color var(--cubic) var(--duration);
 }
 
-.svg-social-footer:hover {
+.footer__join-us__svg:hover {
   background: var(--MainColor);
 }
 
