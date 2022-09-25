@@ -137,9 +137,8 @@ main {
 .header__list:hover,
 .header__list-active,
 .header__list:focus,
-.footer-2:hover,
-.contact-footer:hover,
-.contact-footer:focus {
+.footer__contact:hover,
+.footer__contact:focus {
   color: var(--MainColor);
 }
 
