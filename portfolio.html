@@ -11,7 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -65,20 +65,20 @@
         </ul>
       </div>
     </header>
-    <main class="main-portfolio">
+    <main class="portfolio">
       <div class="container">
-        <div class="section-button">
-          <button class="button" type="button">Wszystkie</button>
-          <button class="button" type="button">Strony</button>
-          <button class="button" type="button">Aplikacje</button>
-          <button class="button" type="button">Dizajn</button>
-          <button class="button" type="button">Marketing</button>
+        <div class="filters">
+          <button class="filters__button" type="button">Wszystkie</button>
+          <button class="filters__button" type="button">Strony</button>
+          <button class="filters__button" type="button">Aplikacje</button>
+          <button class="filters__button" type="button">Dizajn</button>
+          <button class="filters__button" type="button">Marketing</button>
         </div>
-        <section class="section-container">
-          <ul class="list-product list-none-style">
-            <li class="product-card">
-              <div class="list-product-active">
-                <div class="overlay">
+        <section class="products">
+          <ul class="products__list">
+            <li class="products__card">
+              <div class="products__list-active">
+                <div class="products__overlay">
                   <p>
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -93,14 +93,14 @@
                 width="370"
                 height="294"
               />
-              <div class="border-card">
-                <h4 class="description-product-card">Technocrack</h4>
-                <p class="description-product-card-2">Strona internetowa</p>
+              <div class="products__products__border-card">
+                <h4 class="products__heading">Technocrack</h4>
+                <p class="products__description">Strona internetowa</p>
               </div>
             </li>
-            <li class="product-card">
-              <div class="list-product-active">
-                <div class="overlay">
+            <li class="products__card">
+              <div class="products__list-active">
+                <div class="products__overlay">
                   <p>
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -115,16 +115,16 @@
                 width="370"
                 height="294"
               />
-              <div class="border-card">
-                <h4 class="description-product-card">
+              <div class="products__border-card">
+                <h4 class="products__heading">
                   Grafika New Orlean vs Golden Star
                 </h4>
-                <p class="description-product-card-2">Dizajn</p>
+                <p class="products__description">Dizajn</p>
               </div>
             </li>
-            <li class="product-card">
-              <div class="list-product-active">
-                <div class="overlay">
+            <li class="products__card">
+              <div class="products__list-active">
+                <div class="products__overlay">
                   <p>
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -139,14 +139,14 @@
                 width="370"
                 height="294"
               />
-              <div class="border-card">
-                <h4 class="description-product-card">Restauracja Seafood</h4>
-                <p class="description-product-card-2">Aplikacja</p>
+              <div class="products__border-card">
+                <h4 class="products__heading">Restauracja Seafood</h4>
+                <p class="products__description">Aplikacja</p>
               </div>
             </li>
-            <li class="product-card">
-              <div class="list-product-active">
-                <div class="overlay">
+            <li class="products__card">
+              <div class="products__list-active">
+                <div class="products__overlay">
                   <p>
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -161,14 +161,14 @@
                 width="370"
                 height="294"
               />
-              <div class="border-card">
-                <h4 class="description-product-card">Projekt Prime</h4>
-                <p class="description-product-card-2">Marketing</p>
+              <div class="products__border-card">
+                <h4 class="products__heading">Projekt Prime</h4>
+                <p class="products__description">Marketing</p>
               </div>
             </li>
-            <li class="product-card">
-              <div class="list-product-active">
-                <div class="overlay">
+            <li class="products__card">
+              <div class="products__list-active">
+                <div class="products__overlay">
                   <p>
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -183,14 +183,14 @@
                 width="370"
                 height="294"
               />
-              <div class="border-card">
-                <h4 class="description-product-card">Projekt Boxes</h4>
-                <p class="description-product-card-2">Aplikacja</p>
+              <div class="products__border-card">
+                <h4 class="products__heading">Projekt Boxes</h4>
+                <p class="products__description">Aplikacja</p>
               </div>
             </li>
-            <li class="product-card">
-              <div class="list-product-active">
-                <div class="overlay">
+            <li class="products__card">
+              <div class="products__list-active">
+                <div class="products__overlay">
                   <p>
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -205,16 +205,14 @@
                 width="370"
                 height="294"
               />
-              <div class="border-card">
-                <h4 class="description-product-card">
-                  Inspiration has no Borders
-                </h4>
-                <p class="description-product-card-2">Strona internetowa</p>
+              <div class="products__border-card">
+                <h4 class="products__heading">Inspiration has no Borders</h4>
+                <p class="products__description">Strona internetowa</p>
               </div>
             </li>
-            <li class="product-card">
-              <div class="list-product-active">
-                <div class="overlay">
+            <li class="products__card">
+              <div class="products__list-active">
+                <div class="products__overlay">
                   <p>
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -229,26 +227,14 @@
                 width="370"
                 height="294"
               />
-              <div class="border-card">
-                <h4 class="description-product-card">
-                  Magazyn Limited Edition
-                </h4>
-                <p class="description-product-card-2">Dizajn</p>
+              <div class="products__border-card">
+                <h4 class="products__heading">Magazyn Limited Edition</h4>
+                <p class="products__description">Dizajn</p>
               </div>
             </li>
-            <div class="list-product-active">
-              <div class="overlay">
-                <p>
-                  Technocrack jest popularną platformą wykorzystywaną do
-                  rozpowszechniania koronawirusa. Firmy wykorzystują tę
-                  platformę do celów szpiegowskich i ataków na niezabezpieczone
-                  serwery konkurencji
-                </p>
-              </div>
-            </div>
-            <li class="product-card">
-              <div class="list-product-active">
-                <div class="overlay">
+            <li class="products__card">
+              <div class="products__list-active">
+                <div class="products__overlay">
                   <p>
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -263,14 +249,14 @@
                 width="370"
                 height="294"
               />
-              <div class="border-card">
-                <h4 class="description-product-card">Projekt LAB</h4>
-                <p class="description-product-card-2">Marketing</p>
+              <div class="products__border-card">
+                <h4 class="products__heading">Projekt LAB</h4>
+                <p class="products__description">Marketing</p>
               </div>
             </li>
             <li class="product-card">
-              <div class="list-product-active">
-                <div class="overlay">
+              <div class="products__list-active">
+                <div class="products__overlay">
                   <p>
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -285,9 +271,9 @@
                 width="370"
                 height="294"
               />
-              <div class="border-card">
-                <h4 class="description-product-card">Growing Business</h4>
-                <p class="description-product-card-2">Aplikacja</p>
+              <div class="products__border-card">
+                <h4 class="products__heading">Growing Business</h4>
+                <p class="products__description">Aplikacja</p>
               </div>
             </li>
           </ul>

@@ -26,7 +26,7 @@ ul {
   padding: 0 15px;
 }
 
-.section-container {
+.products {
   margin: 0 auto;
   padding: 0;
 }
@@ -268,7 +268,7 @@ main {
   list-style: none;
 }
 
-.button {
+.filters__button {
   background: #f5f4fa;
   width: 121px;
   height: 38px;
@@ -284,13 +284,13 @@ main {
     color var(--cubic) var(--duration), box-shadow var(--cubic) var(--duration);
 }
 
-.button:focus {
+.filters__button:focus {
   background: var(--MainColor);
   color: var(--colorWhite);
   border: 0;
 }
 
-.button:hover {
+.filters__button:hover {
   background: var(--MainColor);
   color: var(--colorWhite);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -323,7 +323,7 @@ main {
   color: var(--MainColor);
 }
 
-.description-product-card {
+.products__heading {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -334,7 +334,7 @@ main {
   margin-top: 0;
 }
 
-.description-product-card-2 {
+.products__description {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -344,7 +344,7 @@ main {
   padding: 0px 24px 20px 24px;
 }
 
-.border-card {
+.products__border-card {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -352,7 +352,7 @@ main {
   padding: 0;
 }
 
-.product-card:hover {
+.products__card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   transition: box-shadow var(--cubic) var(--duration);
@@ -579,13 +579,13 @@ address {
   transition: color var(--cubic) var(--duration);
 }
 
-.main-portfolio {
+.portfolio {
   padding: 94px 0;
   display: flex;
   background: var(--colorWhite);
 }
 
-.section-button {
+.filters {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -593,25 +593,27 @@ address {
   padding-bottom: 45px;
 }
 
-.list-product {
+.products__list {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
   padding: 0;
+  list-style: none;
 }
 
-.list-product-active {
+.products__list-active {
   position: absolute;
   width: 370px;
   overflow: hidden;
   transition-property: transform var(--cubic) var(--duration);
 }
 
-.list-product-active:hover .overlay {
+.products__list-active:hover .products__overlay {
   transform: translateY(0);
 }
 
-.overlay {
+.products__overlay {
   background: rgba(33, 150, 243, 0.9);
   display: inline-block;
   height: 294px;
@@ -624,7 +626,7 @@ address {
   transform: translateY(100%);
 }
 
-.overlay > p {
+.products__overlay > p {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -632,19 +634,6 @@ address {
   letter-spacing: 0.03em;
   margin: 0;
   color: var(--colorWhite);
-}
-
-.main-portfolio {
-  padding: 94px 0;
-  display: flex;
-  background: var(--colorWhite);
-}
-
-.list-product {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
 }
 
 .footer__newsletter__input {
