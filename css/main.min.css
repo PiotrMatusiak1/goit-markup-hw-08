@@ -316,8 +316,8 @@ main {
 
 .main-section__button:hover,
 .main-section__button:focus,
-.btn-newsletter:hover,
-.btn-newsletter:focus,
+.footer__newsletter__button:hover,
+.footer__newsletter__button:focus,
 .submit:hover,
 .submit:focus {
   background-color: #f5f4fa;
@@ -508,7 +508,8 @@ footer {
   align-items: flex-start;
 }
 
-.footer__join-us {
+.footer__join-us,
+.footer__newsletter__join-us {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -647,7 +648,7 @@ address {
   gap: 30px;
 }
 
-.newsletter {
+.footer__newsletter__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -660,11 +661,11 @@ address {
   margin-right: 12px;
 }
 
-.div-newsletter {
+.footer__newsletter {
   margin-left: 15px;
 }
 
-.btn-newsletter {
+.footer__newsletter__button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   background-color: var(--MainColor);
@@ -683,7 +684,7 @@ address {
   transition: background-color var(--cubic) 1s, color var(--cubic) 1s;
 }
 
-.svg-newsletter {
+.footer__newsletter__svg {
   fill: var(--colorWhite);
   position: absolute;
   left: 148px;
@@ -691,8 +692,8 @@ address {
   transition: fill var(--cubic) 1s;
 }
 
-.btn-newsletter:hover svg,
-.btn-newsletter:focus svg {
+.footer__newsletter__button:hover svg,
+.footer__newsletter__button:focus svg {
   fill: var(--MainColor);
 }
 
