@@ -373,15 +373,15 @@ main {
   width: 170px;
   height: 92px;
   cursor: pointer;
-  border: 1px solid var(--colorFill);
+  border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill: var(--colorFill);
-  -webkit-transition: color var(--cubic) var(--duration), fill var(--cubic) var(--duration);
-  transition: color var(--cubic) var(--duration), fill var(--cubic) var(--duration);
+  fill: #afb1b8;
+  -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms, fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms, fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .customer__svg:hover {
-  fill: var(--MainColor);
-  border: 1px solid var(--MainColor);
+  fill: #2196f3;
+  border: 1px solid #2196f3;
 }
 .customer__list {
   display: -webkit-box;
@@ -391,8 +391,8 @@ main {
   list-style: none;
 }
 .customer__list__list a:focus svg {
-  fill: var(--MainColor);
-  border: 1px solid var(--MainColor);
+  fill: #2196f3;
+  border: 1px solid #2196f3;
 }
 .customer__heading {
   font-style: normal;

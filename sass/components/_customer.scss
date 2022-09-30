@@ -6,14 +6,13 @@
     width: 170px;
     height: 92px;
     cursor: pointer;
-    border: 1px solid var(--colorFill);
+    border: 1px solid $colorFill;
     border-radius: 4px;
-    fill: var(--colorFill);
-    transition: color var(--cubic) var(--duration),
-      fill var(--cubic) var(--duration);
+    fill: $colorFill;
+    transition: color $cubic $duration, fill $cubic $duration;
     &:hover {
-      fill: var(--MainColor);
-      border: 1px solid var(--MainColor);
+      fill: $MainColor;
+      border: 1px solid $MainColor;
     }
   }
   &__list {
@@ -22,8 +21,8 @@
     list-style: none;
 
     &__list a:focus svg {
-      fill: var(--MainColor);
-      border: 1px solid var(--MainColor);
+      fill: $MainColor;
+      border: 1px solid $MainColor;
     }
   }
   &__heading {
