@@ -118,6 +118,8 @@ header {
 }
 .header__contact-details:hover, .header__contact-details:focus {
   color: #2196f3;
+}
+.header__contact-details:hover, .header__contact-details:focus {
   --icon-color: currentColor;
 }
 
