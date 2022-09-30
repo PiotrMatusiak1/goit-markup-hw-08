@@ -110,7 +110,7 @@ header {
     }
     &:hover,
     &:focus {
+      --icon-color: currentColor;
     }
-    --icon-color: currentColor;
   }
 }
