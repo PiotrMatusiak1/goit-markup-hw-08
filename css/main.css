@@ -788,4 +788,9 @@ footer {
   cursor: pointer;
   -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 1s, color cubic-bezier(0.4, 0, 0.2, 1) 1s;
   transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 1s, color cubic-bezier(0.4, 0, 0.2, 1) 1s;
+}
+.modal__submit :hover,
+.modal__submit :focus {
+  background-color: #f5f4fa;
+  color: var(--MainColor);
 }/*# sourceMappingURL=main.css.map */

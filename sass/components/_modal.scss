@@ -180,5 +180,10 @@
     border: 0;
     cursor: pointer;
     transition: background-color $cubic 1s, color $cubic 1s;
+    :hover,
+    :focus {
+      background-color: #f5f4fa;
+      color: var(--MainColor);
+    }
   }
 }
