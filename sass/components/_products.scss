@@ -1,0 +1,73 @@
+.products {
+  margin: 0 auto;
+  padding: 0;
+  &__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.161;
+    letter-spacing: 0.06em;
+    color: #212121;
+    padding: 20px 24px 4px 24px;
+    margin-top: 0;
+  }
+  &__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.968;
+    letter-spacing: 0.03em;
+    color: $colorGrey;
+    padding: 0px 24px 20px 24px;
+  }
+  &__border-card {
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    margin: 0;
+    padding: 0;
+  }
+  &__card:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: box-shadow $cubic $duration;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    &-active {
+      position: absolute;
+      width: 370px;
+      overflow: hidden;
+      transition-property: transform $cubic $duration;
+    }
+    &-active:hover .products__overlay {
+      transform: translateY(0);
+    }
+  }
+  &__overlay {
+    background: rgba(33, 150, 243, 0.9);
+    display: inline-block;
+    height: 294px;
+    width: 370px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 49px 24px;
+    transition: $duration $cubic;
+    transform: translateY(100%);
+    & > p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      letter-spacing: 0.03em;
+      margin: 0;
+      color: $colorWhite;
+    }
+  }
+}

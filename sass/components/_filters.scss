@@ -1,0 +1,36 @@
+.portfolio {
+  padding: 94px 0;
+  display: flex;
+  background: $colorWhite;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 45px;
+  &__button {
+    background: #f5f4fa;
+    width: 121px;
+    height: 38px;
+    border-radius: 4px;
+    border: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+    font-family: "Roboto";
+    transition: background-color $cubic $duration, color $cubic $duration,
+      box-shadow $cubic $duration;
+    &:focus,
+    &:hover {
+      background: $MainColor;
+      color: $colorWhite;
+      border: 0;
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+  }
+}
