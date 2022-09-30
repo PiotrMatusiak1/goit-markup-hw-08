@@ -120,6 +120,9 @@ header {
   color: #2196f3;
   --icon-color: currentColor;
 }
+.header__contact-details:hover, .header__contact-details:focus {
+  --icon-color: currentColor;
+}
 
 main {
   background-color: #ffffff;

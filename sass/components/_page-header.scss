@@ -109,5 +109,9 @@ header {
       color: $MainColor;
       --icon-color: currentColor;
     }
+    &:hover,
+    &:focus {
+      --icon-color: currentColor;
+    }
   }
 }
