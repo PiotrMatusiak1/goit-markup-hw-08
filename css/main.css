@@ -706,7 +706,7 @@ footer {
           box-shadow: none;
   outline: none;
 }
-.modal__input--comment {
+.modal__input-comment {
   display: block;
   resize: none;
   padding-top: 4px;
@@ -726,8 +726,8 @@ footer {
   padding: 12px 16px;
   margin-bottom: 20px;
 }
-.modal__input--comment:hover,
-.modal__input--comment :focus {
+.modal__input-comment:hover,
+.modal__input-comment :focus {
   border: rgb(33, 150, 243) 1px solid;
   -webkit-box-shadow: none;
           box-shadow: none;
