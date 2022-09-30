@@ -1,0 +1,46 @@
+main {
+  background-color: $colorWhite;
+}
+.main-section {
+  height: 600px;
+  max-width: 1600px;
+  justify-content: center;
+  background-image: linear-gradient($gradient, $gradient),
+    url(../images/mainjpg.jpg);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 94px 0;
+  &__text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 650px;
+    text-align: center;
+    color: $colorWhite;
+  }
+  &__button {
+    width: 200px;
+    height: 50px;
+    background: $MainColor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: $colorWhite;
+    transition: background-color $cubic 1s, color $cubic 1s;
+    &:hover,
+    &:focus {
+      background-color: #f5f4fa;
+      color: var(--MainColor);
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.strength {
+  width: 1170 px;
+  padding-top: 94px;
+  &__svg {
+    background-color: #f5f4fa;
+    height: 120px;
+    width: 270px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    list-style: none;
+  }
+  __heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $colorGrey;
+  }
+}

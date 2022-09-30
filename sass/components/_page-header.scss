@@ -1,0 +1,116 @@
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background: $colorWhite;
+  border: 1px solid #ececec;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: $colorWhite;
+  margin: 0 auto;
+  height: 80px;
+  &__logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+    &-blue {
+      color: $MainColor;
+    }
+  }
+  &__nav {
+    display: flex;
+    gap: 46px;
+    padding-left: 93px;
+    list-style: none;
+    text-decoration: none;
+  }
+  &__contact {
+    display: flex;
+    gap: 46px;
+    margin-left: auto;
+    list-style: none;
+
+    &--svg {
+      fill: currentColor;
+    }
+  }
+  &__list {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.516;
+    letter-spacing: 0.02em;
+    color: #212121;
+    transition: color $duration $cubic, transform $duration $cubic;
+    text-decoration: none;
+    &-active::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 4px;
+      bottom: 0;
+      left: 0;
+      transform: translateY(29px);
+      background-color: $MainColor;
+      border-radius: 2px;
+    }
+    &-noactive:hover::after,
+    &-noactive:focus::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 4px;
+      bottom: 0;
+      left: 0;
+      transform: translateY(29px);
+      background-color: $MainColor;
+      border-radius: 2px;
+    }
+    &:hover,
+    &-active,
+    &:focus {
+      color: $MainColor;
+    }
+  }
+  &__contact-details {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $colorGrey;
+    transition: color $duration $cubic;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: $MainColor;
+    }
+    &:hover,
+    &:focus {
+      --icon-color: currentColor;
+    }
+  }
+}
