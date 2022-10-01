@@ -597,14 +597,14 @@ footer {
   background-color: #f5f4fa;
   color: #2196f3;
 }
-.newsletter__button:hoversvg {
+.newsletter__button:hover svg {
   fill: #2196f3;
 }
 .newsletter__button:focus {
   background-color: #f5f4fa;
   color: #2196f3;
 }
-.newsletter__button:focussvg {
+.newsletter__button:focus svg {
   fill: #2196f3;
 }
 .newsletter__svg {
