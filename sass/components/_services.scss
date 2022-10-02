@@ -1,17 +1,18 @@
-.services {
+.section__services {
   width: 1170px;
   padding-bottom: 94px;
-  &__heading {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.166;
-    letter-spacing: 0.03em;
-    color: #212121;
-    text-align: center;
-    padding: 94px 0 15px 0;
-    margin-top: 0;
-  }
+}
+.services {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+  padding: 94px 0 15px 0;
+  margin-top: 0;
+
   &__list {
     display: flex;
     gap: 30px;
