@@ -580,14 +580,14 @@ footer {
   list-style: none;
 }
 
-.products__list-active {
+.products__list--active {
   position: absolute;
   width: 370px;
   overflow: hidden;
   transition-property: transform var(--cubic) var(--duration);
 }
 
-.products__list-active:hover .products__overlay {
+.products__list--active:hover .products__overlay {
   transform: translateY(0);
 }
 

@@ -66,7 +66,7 @@ header {
     color: #212121;
     transition: color $duration $cubic, transform $duration $cubic;
     text-decoration: none;
-    &-active::after {
+    &--active::after {
       content: "";
       display: block;
       width: 100%;
@@ -77,8 +77,8 @@ header {
       background-color: $MainColor;
       border-radius: 2px;
     }
-    &-noactive:hover::after,
-    &-noactive:focus::after {
+    &--noactive:hover::after,
+    &--noactive:focus::after {
       content: "";
       display: block;
       width: 100%;
@@ -90,8 +90,8 @@ header {
       border-radius: 2px;
     }
     &:hover,
-    &-active,
-    &:focus {
+    --active,
+    :focus {
       color: $MainColor;
     }
   }
@@ -105,11 +105,8 @@ header {
     transition: color $duration $cubic;
     text-decoration: none;
     &:hover,
-    &:focus {
+    :focus {
       color: $MainColor;
-    }
-    &:hover,
-    &:focus {
       --icon-color: currentColor;
     }
   }

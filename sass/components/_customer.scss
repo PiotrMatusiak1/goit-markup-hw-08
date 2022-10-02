@@ -20,7 +20,7 @@
     gap: 30px;
     list-style: none;
 
-    &__list a:focus svg {
+    & a:focus svg {
       fill: $MainColor;
       border: 1px solid $MainColor;
     }
