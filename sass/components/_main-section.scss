@@ -38,7 +38,7 @@ main {
     color: $colorWhite;
     transition: background-color $cubic 1s, color $cubic 1s;
     &:hover,
-    &:focus {
+    :focus {
       background-color: #f5f4fa;
       color: var(--MainColor);
     }
