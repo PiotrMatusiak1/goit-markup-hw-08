@@ -104,5 +104,10 @@ header {
     color: $colorGrey;
     transition: color $duration $cubic;
     text-decoration: none;
+    &:hover,
+    :focus {
+      color: $MainColor;
+      fill: currentColor;
+    }
   }
 }

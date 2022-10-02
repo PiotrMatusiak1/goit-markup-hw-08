@@ -118,6 +118,11 @@ header {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
 }
+.header__contact-details:hover,
+.header__contact-details :focus {
+  color: #2196f3;
+  fill: currentColor;
+}
 
 main {
   background-color: #ffffff;
