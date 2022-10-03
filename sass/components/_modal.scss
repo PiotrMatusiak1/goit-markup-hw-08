@@ -94,7 +94,7 @@
     margin-bottom: 10px;
     transition: $duration $cubic;
     &:hover,
-    :focus {
+    &:focus {
       border: rgba(33, 150, 243, 1) 1px solid;
       box-shadow: none;
       outline: none;
@@ -118,7 +118,7 @@
       padding: 12px 16px;
       margin-bottom: 20px;
       &:hover,
-      :focus {
+      &:focus {
         border: rgba(33, 150, 243, 1) 1px solid;
         box-shadow: none;
         outline: none;
@@ -144,7 +144,7 @@
       margin-bottom: 0;
     }
     &:focus-within > .modal__icon,
-    :hover > .modal__icon {
+    &:hover > .modal__icon {
       fill: $MainColor;
     }
   }
@@ -181,7 +181,7 @@
     cursor: pointer;
     transition: background-color $cubic 1s, color $cubic 1s;
     &:hover,
-    :focus {
+    &:focus {
       background-color: #f5f4fa;
       color: $MainColor;
     }

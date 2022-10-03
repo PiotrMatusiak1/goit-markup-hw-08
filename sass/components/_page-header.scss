@@ -90,8 +90,8 @@ header {
       border-radius: 2px;
     }
     &:hover,
-    --active,
-    :focus {
+    &-active,
+    &:focus {
       color: $MainColor;
     }
   }
@@ -105,7 +105,7 @@ header {
     transition: color $duration $cubic;
     text-decoration: none;
     &:hover,
-    :focus {
+    &:focus {
       color: $MainColor;
       fill: currentColor;
     }
