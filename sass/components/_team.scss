@@ -1,7 +1,4 @@
 .team {
-  width: 100%;
-  background: #f5f4fa;
-  padding: 94px 0;
   &__heading {
     font-style: normal;
     font-weight: 700;
@@ -24,6 +21,13 @@
     }
     & > li > p {
       text-align: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #757575;
     }
   }
   &__social {

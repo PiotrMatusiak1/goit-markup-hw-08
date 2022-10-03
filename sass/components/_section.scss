@@ -1,0 +1,14 @@
+.section {
+  padding: 94px 0;
+  &__team {
+    @extend .section;
+    background-color: rgba(245, 244, 250, 1);
+  }
+  &__services {
+    @extend .section;
+  }
+  &__products {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
