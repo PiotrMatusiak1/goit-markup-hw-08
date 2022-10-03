@@ -465,8 +465,7 @@ footer {
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   text-decoration: none;
 }
-.footer__contact:hover,
-.footer__contact :focus {
+.footer__contact:hover, .footer__contact:focus {
   color: #2196f3;
 }
 .footer__list {

@@ -46,7 +46,7 @@ footer {
     transition: color $cubic $duration;
     text-decoration: none;
     &:hover,
-    :focus {
+    &:focus {
       color: $MainColor;
     }
   }
