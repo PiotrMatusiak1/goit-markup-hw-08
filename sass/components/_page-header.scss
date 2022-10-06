@@ -123,13 +123,7 @@ header {
   }
 }
 
-@media (min-width: 768px) {
-  .mobile {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .header {
     width: 100%;
     padding: 26px 15px;
@@ -140,5 +134,8 @@ header {
       flex-direction: column;
       gap: 10px;
     }
+  }
+  &__mobile {
+    display: none;
   }
 }
