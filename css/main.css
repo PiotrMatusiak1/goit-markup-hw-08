@@ -45,6 +45,23 @@ header {
 .header__logo-blue {
   color: #2196f3;
 }
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
+  padding: 0 15px;
+  height: 60px;
+}
 .header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -139,26 +156,41 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  .header {
+  .header__container {
+    height: 80px;
     width: 100%;
-    padding: 26px 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin: 0;
   }
+  .header__nav-size {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .header__contact {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 10px;
+    gap: 8px;
   }
-  .header__mobile {
-    display: none;
+}
+@media screen and (min-width: 1200px) {
+  .header__container {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .header__logo {
+    margin-right: 93px;
   }
 }
 main {
