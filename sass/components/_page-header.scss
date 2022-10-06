@@ -134,8 +134,9 @@ header {
       flex-direction: column;
       gap: 10px;
     }
-  }
-  &__mobile {
-    display: none;
+
+    &__mobile {
+      display: none;
+    }
   }
 }
