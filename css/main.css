@@ -275,8 +275,6 @@ main {
 .section__strength {
   width: 1170 px;
   padding-top: 94px;
-  max-width: 1200px;
-  min-width: 320px;
 }
 
 .strength {
@@ -286,8 +284,14 @@ main {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  gap: 30px;
   list-style: none;
+  max-width: 1200px;
+  min-width: 320px;
+  padding: 0 15px;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
 }
 .strength__svg {
   background-color: #f5f4fa;
@@ -304,6 +308,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
 }
 .strength__heading {
   font-weight: 700;
