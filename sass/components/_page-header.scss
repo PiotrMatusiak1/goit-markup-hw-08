@@ -64,7 +64,7 @@ header {
     line-height: 0.516;
     letter-spacing: 0.02em;
     color: #212121;
-    transition: color $duration $cubic, transform $duration $cubic;
+    transition: color $duration $duration, transform $duration $duration;
     text-decoration: none;
     &--active::after {
       content: "";
@@ -102,12 +102,41 @@ header {
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: $colorGrey;
-    transition: color $duration $cubic;
+    transition: color $duration $duration;
     text-decoration: none;
     &:hover,
     &:focus {
       color: $MainColor;
       fill: currentColor;
+    }
+  }
+  &__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $colorWhite;
+    border: none;
+    &-menu {
+      width: 24px;
+      height: 16px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .header {
+    width: 100%;
+    padding: 26px 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    &__mobile {
+      display: none;
+    }
+
+    &__contact {
+      flex-direction: column;
+      gap: 10px;
     }
   }
 }
