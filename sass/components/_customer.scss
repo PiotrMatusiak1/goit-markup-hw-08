@@ -19,6 +19,9 @@
   &__list {
     display: flex;
     gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style: none;
 
     & a:focus svg {

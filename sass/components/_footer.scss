@@ -57,3 +57,58 @@ footer {
     color: $MainColor;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 51px;
+
+    &__logo {
+      margin-bottom: 20px;
+    }
+    &__contacts {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__address {
+      font-style: normal;
+      margin-bottom: 9px;
+    }
+    &__link {
+      margin-bottom: 9px;
+    }
+    &__socials {
+      margin-top: 5px;
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      padding-right: auto;
+    }
+    &__social-list {
+      margin-bottom: 0;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    &__container {
+      gap: 70px;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+    }
+    &__contacts {
+      align-items: flex-start;
+    }
+    &__socials {
+      margin-top: 12px;
+    }
+  }
+}
