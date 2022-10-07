@@ -582,7 +582,7 @@ main {
 .customer {
   min-width: 240px;
   max-width: 1200px;
-  width: 100%;
+  margin: 0 auto;
 }
 .customer__svg {
   width: 170px;
@@ -627,9 +627,6 @@ main {
   }
 }
 @media screen and (min-width: 1200px) {
-  .container {
-    margin: 0 auto;
-  }
   .customer__list {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -1178,6 +1175,7 @@ body {
 .section__team {
   background-color: rgb(245, 244, 250);
   min-width: 360px;
+  max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1186,6 +1184,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 30px;
+  margin: 0 auto;
 }
 .section__services {
   width: 1200px;

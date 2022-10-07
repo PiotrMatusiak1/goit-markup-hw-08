@@ -1,7 +1,7 @@
 .customer {
   min-width: 240px;
   max-width: 1200px;
-  width: 100%;
+  margin: 0 auto;
 
   &__svg {
     width: 170px;
@@ -46,9 +46,6 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .container {
-    margin: 0 auto;
-  }
   .customer {
     &__list {
       flex-wrap: nowrap;
