@@ -5,7 +5,9 @@
     background-color: rgba(245, 244, 250, 1);
   }
   &__services {
+    width: 1200px;
     @extend .section;
+    margin: 0 auto;
   }
   &__products {
     margin: 0 auto;
