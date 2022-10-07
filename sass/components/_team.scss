@@ -1,3 +1,7 @@
+.container__team {
+  padding: 0 15px;
+}
+
 .team {
   &__heading {
     font-style: normal;
@@ -13,6 +17,7 @@
     display: flex;
     gap: 30px;
     list-style: none;
+    width: auto;
     & > li {
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -72,5 +77,38 @@
     letter-spacing: 0.03em;
     color: #0c0b0b;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container__team {
+    &__list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin: 0;
+      & > li {
+        flex-basis: calc((100% - 30px * 1) / 2);
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container__team {
+    width: 1200px;
+    margin: 0 auto;
+
+    &__list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      margin: 0;
+    }
+    &__heading {
+      text-align: center;
+    }
   }
 }

@@ -63,6 +63,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .section__strength {
+    padding-bottom: 94px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .strength {
     flex-wrap: nowrap;

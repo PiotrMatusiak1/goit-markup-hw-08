@@ -1,5 +1,8 @@
 .customer {
+  min-width: 240px;
+  max-width: 1200px;
   width: 100%;
+
   &__svg {
     width: 170px;
     height: 92px;
@@ -32,5 +35,23 @@
     color: #212121;
     text-align: center;
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .customer {
+    & .li {
+      flex-basis: calc((100% - 30px * 2) / 3);
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    margin: 0 auto;
+  }
+  .customer {
+    &__list {
+      flex-wrap: nowrap;
+    }
   }
 }

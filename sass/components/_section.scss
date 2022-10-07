@@ -1,8 +1,24 @@
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .section {
   padding: 94px 0;
   &__team {
     @extend .section;
     background-color: rgba(245, 244, 250, 1);
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
   &__services {
     width: 1200px;
