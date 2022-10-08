@@ -61,3 +61,13 @@
     margin-top: 10px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .newsletter__join-us > form {
+    margin: 0px 202px;
+    &__textfield {
+      min-width: 200px;
+      width: 450px;
+    }
+  }
+}

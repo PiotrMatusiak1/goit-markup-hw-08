@@ -668,6 +668,7 @@ footer {
 }
 
 .footer {
+  max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -914,6 +915,15 @@ footer {
   margin-top: 10px;
 }
 
+@media screen and (min-width: 1200px) {
+  .newsletter__join-us > form {
+    margin: 0px 202px;
+  }
+  .newsletter__join-us > form__textfield {
+    min-width: 200px;
+    width: 450px;
+  }
+}
 .backdrop {
   position: fixed;
   width: 528px;
