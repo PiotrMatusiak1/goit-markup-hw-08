@@ -96,17 +96,17 @@
     flex-direction: row;
     gap: 10px;
     list-style: none;
+    & > li > a {
+      text-decoration: none;
+    }
+    &-link {
+      font-size: 18px;
+      color: $MainColor;
+      font-weight: 500;
+    }
   }
-  & > li > a {
-    text-decoration: none;
+  &__exit {
+    width: 19px;
+    height: 19px;
   }
-  &-link {
-    font-size: 18px;
-    color: $MainColor;
-    font-weight: 500;
-  }
-}
-&__exit {
-  width: 19px;
-  height: 19px;
 }

@@ -1479,11 +1479,10 @@ body {
   gap: 10px;
   list-style: none;
 }
-.mobile > li > a {
+.mobile__socials > li > a {
   text-decoration: none;
-  list-style: none;
 }
-.mobile > li > a-link {
+.mobile__socials-link {
   font-size: 18px;
   color: #2196f3;
   font-weight: 500;
