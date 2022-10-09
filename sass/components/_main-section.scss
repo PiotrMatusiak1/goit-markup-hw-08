@@ -23,7 +23,6 @@ main {
     line-height: 1.363;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 650px;
     text-align: center;
     color: $colorWhite;
   }
@@ -56,6 +55,7 @@ main {
 }
 @media screen and (max-width: 1199px) {
   .main__text {
+    min-width: 320px;
     font-size: 26px;
     line-height: 42px;
     text-align: center;

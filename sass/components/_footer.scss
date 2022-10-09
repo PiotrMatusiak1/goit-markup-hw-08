@@ -1,20 +1,22 @@
 footer {
-  width: 100%;
+  max-width: 11200px;
   background-color: $backgroundSecondary;
   height: 252px;
   display: flex;
   gap: 30px;
   padding: 55.5px 0;
   align-items: flex-start;
-  flex-wrap: wrap;
   justify-content: center;
   padding: 60px 0 51px 0;
 }
 
 .footer {
   max-width: 1200px;
+  min-width: 320px;
   display: flex;
   flex-direction: wrap;
+  flex-direction: column;
+  margin: 0 auto;
   gap: 70px;
   align-items: flex-start;
   &__logo {
