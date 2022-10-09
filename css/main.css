@@ -651,9 +651,9 @@ main {
   }
 }
 footer {
-  max-width: 11200px;
+  width: 100%;
   background-color: #2f303a;
-  height: 252px;
+  min-height: 252px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -681,9 +681,9 @@ footer {
   flex-direction: column;
   margin: 0 auto;
   gap: 70px;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .footer__logo {
   font-family: "Raleway";

@@ -1,7 +1,7 @@
 footer {
-  max-width: 11200px;
+  width: 100%;
   background-color: $backgroundSecondary;
-  height: 252px;
+  min-height: 252px;
   display: flex;
   gap: 30px;
   padding: 55.5px 0;
@@ -18,7 +18,7 @@ footer {
   flex-direction: column;
   margin: 0 auto;
   gap: 70px;
-  align-items: flex-start;
+  align-items: center;
   &__logo {
     font-family: "Raleway";
     font-style: normal;
@@ -68,7 +68,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 51px;
-
     &__logo {
       margin-bottom: 20px;
     }
