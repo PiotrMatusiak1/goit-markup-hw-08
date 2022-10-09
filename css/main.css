@@ -455,8 +455,8 @@ main {
 }
 
 .team__svg {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
 }
 .team__heading {
   font-style: normal;
@@ -599,7 +599,7 @@ main {
   margin: 0 auto;
 }
 .customer__svg {
-  width: 170px;
+  min-width: 170px;
   height: 92px;
   cursor: pointer;
   border: 1px solid #afb1b8;
