@@ -73,7 +73,13 @@
 }
 
 @media screen and (max-width: 767px) {
-  .newsletter__input {
-    width: 450px;
+  .newsletter {
+    &__join-us {
+      text-align: center;
+    }
+    &__input {
+      max-width: 450px;
+      align-items: center;
+    }
   }
 }

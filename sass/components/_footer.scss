@@ -1,5 +1,5 @@
 footer {
-  max-width: 100%;
+  max-width: 100%px;
   background-color: $backgroundSecondary;
   min-height: 252px;
   display: flex;
@@ -113,6 +113,18 @@ footer {
     }
     &__socials {
       margin-top: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    align-items: center;
+    &__logo {
+      text-align: center;
+    }
+    &__list {
+      text-align: center;
     }
   }
 }
