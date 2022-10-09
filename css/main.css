@@ -1453,10 +1453,10 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 32px;
-  text-decoration: none;
-}
-.mobile__contacts > li {
   list-style: none;
+}
+.mobile__contacts > li > a {
+  text-decoration: none;
 }
 .mobile__contacts-phone {
   font-size: 34px;
@@ -1477,12 +1477,13 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   gap: 10px;
-  text-decoration: none;
-}
-.mobile__socials > li {
   list-style: none;
 }
-.mobile__socials-link {
+.mobile > li > a {
+  text-decoration: none;
+  list-style: none;
+}
+.mobile > li > a-link {
   font-size: 18px;
   color: #2196f3;
   font-weight: 500;
