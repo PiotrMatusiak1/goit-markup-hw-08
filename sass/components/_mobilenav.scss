@@ -76,8 +76,10 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    list-style: none;
     text-decoration: none;
+    & > li {
+      list-style: none;
+    }
     &-phone {
       font-size: 34px;
       font-weight: 500;
@@ -93,8 +95,10 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    list-style: none;
     text-decoration: none;
+    & > li {
+      list-style: none;
+    }
     &-link {
       font-size: 18px;
       color: $MainColor;
