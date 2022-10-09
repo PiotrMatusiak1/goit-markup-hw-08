@@ -1,5 +1,5 @@
 footer {
-  width: 100%;
+  max-width: 100%;
   background-color: $backgroundSecondary;
   min-height: 252px;
   display: flex;
@@ -8,6 +8,7 @@ footer {
   align-items: flex-start;
   justify-content: center;
   padding: 60px 0 51px 0;
+  margin: 0;
 }
 
 .footer {
@@ -18,7 +19,7 @@ footer {
   flex-direction: column;
   margin: 0 auto;
   gap: 70px;
-  align-items: center;
+  align-items: flex-start;
   &__logo {
     font-family: "Raleway";
     font-style: normal;
@@ -28,8 +29,6 @@ footer {
     color: $colorWhite;
     letter-spacing: 0.03em;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
   }
   &__address {
     font-style: normal;
@@ -42,6 +41,7 @@ footer {
     transition: color $cubic $duration;
   }
   &__contact {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -49,7 +49,6 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     transition: color $cubic $duration;
     text-decoration: none;
-    text-align: center;
     &:hover,
     &:focus {
       color: $MainColor;
@@ -70,6 +69,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 51px;
+
     &__logo {
       margin-bottom: 20px;
     }

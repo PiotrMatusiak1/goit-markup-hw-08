@@ -6,7 +6,6 @@
   text-transform: uppercase;
   color: $colorWhite;
   margin-top: 10px;
-  text-align: center;
   &__list {
     width: 210px;
     display: flex;
@@ -30,5 +29,11 @@
     &:hover {
       background: $MainColor;
     }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .join-us {
+    text-align: center;
   }
 }

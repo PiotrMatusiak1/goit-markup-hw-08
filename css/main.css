@@ -652,7 +652,7 @@ main {
   }
 }
 footer {
-  width: 100%;
+  max-width: 100%;
   background-color: #2f303a;
   min-height: 252px;
   display: -webkit-box;
@@ -667,6 +667,7 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 60px 0 51px 0;
+  margin: 0;
 }
 
 .footer {
@@ -682,9 +683,9 @@ footer {
   flex-direction: column;
   margin: 0 auto;
   gap: 70px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 .footer__logo {
   font-family: "Raleway";
@@ -695,12 +696,6 @@ footer {
   color: #ffffff;
   letter-spacing: 0.03em;
   text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 .footer__address {
   font-style: normal;
@@ -714,6 +709,7 @@ footer {
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .footer__contact {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -722,7 +718,6 @@ footer {
   -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   text-decoration: none;
-  text-align: center;
 }
 .footer__contact:hover, .footer__contact:focus {
   color: #2196f3;
@@ -824,7 +819,6 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   margin-top: 10px;
-  text-align: center;
 }
 .join-us__list {
   width: 210px;
@@ -858,6 +852,11 @@ footer {
   background: #2196f3;
 }
 
+@media screen and (max-width: 767px) {
+  .join-us {
+    text-align: center;
+  }
+}
 .newsletter {
   margin-left: 15px;
 }
@@ -889,9 +888,6 @@ footer {
   text-align: left;
   letter-spacing: 0.06em;
   color: #ffffff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border: 0;
   position: relative;
   cursor: pointer;
@@ -928,7 +924,6 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   margin-top: 10px;
-  text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
