@@ -25,6 +25,7 @@ main {
     text-transform: uppercase;
     text-align: center;
     color: $colorWhite;
+    max-width: 696px;
   }
   &__button {
     width: 200px;

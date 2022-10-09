@@ -28,6 +28,8 @@ footer {
     color: $colorWhite;
     letter-spacing: 0.03em;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
   }
   &__address {
     font-style: normal;
@@ -40,7 +42,6 @@ footer {
     transition: color $cubic $duration;
   }
   &__contact {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -48,6 +49,7 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     transition: color $cubic $duration;
     text-decoration: none;
+    text-align: center;
     &:hover,
     &:focus {
       color: $MainColor;

@@ -230,6 +230,7 @@ main {
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
+  max-width: 696px;
 }
 .main__button {
   width: 200px;
@@ -694,6 +695,12 @@ footer {
   color: #ffffff;
   letter-spacing: 0.03em;
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .footer__address {
   font-style: normal;
@@ -707,7 +714,6 @@ footer {
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .footer__contact {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -716,6 +722,7 @@ footer {
   -webkit-transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   text-decoration: none;
+  text-align: center;
 }
 .footer__contact:hover, .footer__contact:focus {
   color: #2196f3;
@@ -817,6 +824,7 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   margin-top: 10px;
+  text-align: center;
 }
 .join-us__list {
   width: 210px;
@@ -881,6 +889,9 @@ footer {
   text-align: left;
   letter-spacing: 0.06em;
   color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: 0;
   position: relative;
   cursor: pointer;
@@ -917,6 +928,7 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   margin-top: 10px;
+  text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
@@ -925,6 +937,11 @@ footer {
   }
   .newsletter__join-us > form__textfield {
     min-width: 200px;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .newsletter__input {
     width: 450px;
   }
 }
