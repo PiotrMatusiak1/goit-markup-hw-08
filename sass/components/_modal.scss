@@ -191,7 +191,28 @@
 @media screen and (min-width: 1200px) {
   .modal-window {
     max-width: 528px;
-    width: 528px;
     height: 590px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modal {
+    width: 528px;
+    width: 100%;
+    &__input {
+      width: 448px;
+      max-width: 100%;
+      &-comment {
+        width: 448px;
+        max-width: 100%;
+      }
+    }
+    &__submit {
+      margin: 30px 0;
+    }
+  }
+  .accept {
+    width: 100%;
+    padding: 0;
   }
 }
