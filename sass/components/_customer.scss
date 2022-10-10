@@ -4,8 +4,7 @@
   margin: 0 auto;
 
   &__svg {
-    min-width: 170px;
-    max-width: 226px;
+    width: 170px;
     height: 92px;
     cursor: pointer;
     border: 1px solid $colorFill;
@@ -44,7 +43,7 @@
 
 @media screen and (min-width: 320px) {
   .customer {
-    & .li {
+    & li {
       flex-basis: calc((100% - 30px) / 2);
     }
   }
@@ -52,7 +51,7 @@
 
 @media screen and (min-width: 768px) {
   .customer {
-    & .li {
+    & li {
       flex-basis: calc((100% - 60px) / 3);
     }
   }
