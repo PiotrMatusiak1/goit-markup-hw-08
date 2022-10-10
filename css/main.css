@@ -963,6 +963,9 @@ footer {
   }
 }
 @media screen and (max-width: 767px) {
+  .newsletter {
+    margin: 0;
+  }
   .newsletter__join-us {
     text-align: center;
   }
