@@ -110,10 +110,6 @@
     &__list > li {
       flex-basis: 100%;
     }
-    &__social {
-      width: fit-content;
-      margin: 0 auto 24px auto;
-    }
   }
 }
 
@@ -130,6 +126,10 @@
     }
     &__heading {
       text-align: center;
+    }
+    &__social {
+      width: fit-content;
+      margin: 0 auto 24px auto;
     }
   }
 }

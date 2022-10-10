@@ -580,12 +580,6 @@ main {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-  .team__social {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: 0 auto 24px auto;
-  }
 }
 @media screen and (min-width: 1200px) {
   .team {
@@ -608,6 +602,12 @@ main {
   }
   .team__heading {
     text-align: center;
+  }
+  .team__social {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto 24px auto;
   }
 }
 .customer {
