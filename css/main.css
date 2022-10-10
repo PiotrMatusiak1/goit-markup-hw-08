@@ -19,6 +19,9 @@ header {
   background: #ffffff;
   margin: 0 auto;
   height: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .header__logo {
   font-family: "Raleway";
