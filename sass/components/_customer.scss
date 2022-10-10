@@ -45,10 +45,18 @@
 @media screen and (min-width: 768px) {
   .customer {
     & .li {
-      flex-basis: calc((100% - 30px * 2) / 3);
+      flex-basis: calc((100% - 60px) / 3);
     }
   }
 }
+@media screen and (max-width: 767px) {
+  .customer {
+    & .li {
+      flex-basis: calc((100% - 30px) / 2);
+    }
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .customer {
     &__list {

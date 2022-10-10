@@ -80,11 +80,13 @@
       text-align: center;
     }
     &__input {
+      width: 100%;
       max-width: 450px;
     }
     &__form {
       display: flex;
       flex-direction: column;
+      justify-content: center;
     }
   }
 }
