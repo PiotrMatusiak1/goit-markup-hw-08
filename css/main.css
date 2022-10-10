@@ -468,7 +468,7 @@ main {
   margin-top: 0;
 }
 .team__photo {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 .team__list {
