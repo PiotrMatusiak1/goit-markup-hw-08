@@ -965,15 +965,15 @@ footer {
 @media screen and (max-width: 767px) {
   .newsletter {
     margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .newsletter__join-us {
     text-align: center;
   }
   .newsletter__input {
     max-width: 450px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .newsletter__form {
     display: -webkit-box;
@@ -983,9 +983,6 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 .backdrop {

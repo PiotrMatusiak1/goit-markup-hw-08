@@ -75,17 +75,16 @@
 @media screen and (max-width: 767px) {
   .newsletter {
     margin: 0;
+    justify-content: center;
     &__join-us {
       text-align: center;
     }
     &__input {
       max-width: 450px;
-      justify-content: center;
     }
     &__form {
       display: flex;
       flex-direction: column;
-      justify-content: center;
     }
   }
 }
