@@ -45,6 +45,7 @@
   .customer {
     & li {
       flex-basis: calc((100% - 30px) / 2);
+      justify-content: center;
     }
   }
 }
@@ -53,6 +54,7 @@
   .customer {
     & li {
       flex-basis: calc((100% - 60px) / 3);
+      justify-content: center;
     }
   }
 }
