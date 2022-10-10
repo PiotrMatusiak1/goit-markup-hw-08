@@ -81,5 +81,10 @@
       max-width: 450px;
       justify-content: center;
     }
+    &__form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 }
